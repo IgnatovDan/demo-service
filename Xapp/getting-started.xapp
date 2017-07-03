@@ -1,0 +1,342 @@
+{
+  "id": "com.company.application",
+  "title": "Getting Started",
+  "platforms": [
+    {
+      "name": "DesktopRule",
+      "layout": "desktop",
+      "options": {
+        "deviceType": "desktop"
+      }
+    },
+    {
+      "name": "PhoneRule",
+      "layout": "slideout",
+      "options": {
+        "deviceType": "phone"
+      }
+    },
+    {
+      "name": "TabletRule",
+      "layout": "split",
+      "options": {
+        "deviceType": "tablet"
+      }
+    }
+  ],
+  "model": [
+    {
+      "name": "authenticated",
+      "type": "boolean",
+      "defaultValue": false,
+      "persistent": true,
+      "isCalculatedDefaultValue": null,
+      "isCalculated": false
+    }
+  ],
+  "dataStores": [
+    {
+      "type": "odata",
+      "id": "dataProvider1",
+      "name": "Incidents",
+      "url": "https://localhost:44305/odata/Incidents",
+      "key": "Oid",
+      "keyType": "Guid",
+      "version": 4,
+      "fields": [
+        {
+          "name": "StatusString",
+          "type": "string"
+        },
+        {
+          "name": "StatusColor",
+          "type": "string"
+        },
+        {
+          "name": "ContactFullName",
+          "type": "string"
+        },
+        {
+          "name": "History",
+          "type": "string"
+        },
+        {
+          "name": "ContactOid",
+          "type": "string"
+        },
+        {
+          "name": "Subject",
+          "type": "string"
+        },
+        {
+          "name": "CreatedOn",
+          "type": "object"
+        },
+        {
+          "name": "Id",
+          "type": "number"
+        },
+        {
+          "name": "NewMessage",
+          "type": "string"
+        },
+        {
+          "name": "Messages",
+          "type": "object"
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "views": [
+    {
+      "id": "view1",
+      "title": "Incidents",
+      "commands": [
+        {
+          "id": "new",
+          "type": "command",
+          "title": "New",
+          "icon": "add",
+          "container": null,
+          "disabled": false,
+          "visible": true,
+          "buttonType": "normal",
+          "showIcon": {
+            "phone": true,
+            "tablet": true,
+            "desktop": false
+          },
+          "showText": {
+            "phone": false,
+            "tablet": false,
+            "desktop": true
+          },
+          "onExecute": {
+            "logic": {
+              "variables": [],
+              "calls": [
+                {
+                  "_type": "NavigateToView",
+                  "viewId": "view2"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "model": [],
+      "functions": [],
+      "dataSources": [
+        {
+          "id": "dataSource1",
+          "calculatedFields": [],
+          "sort": {
+            "getter": "CreatedOn",
+            "desc": true
+          },
+          "store": "dataProvider1"
+        }
+      ],
+      "params": [],
+      "type": "view",
+      "components": [
+        {
+          "type": "list",
+          "style": {
+            "paddingTop": "auto",
+            "paddingLeft": "auto",
+            "paddingBottom": "auto"
+          },
+          "dataSource": "$model.dataSource1",
+          "id": "list1",
+          "itemComponents": [
+            {
+              "type": "label",
+              "style": {},
+              "id": "label1",
+              "text": "$data.Id"
+            },
+            {
+              "type": "label",
+              "style": {},
+              "id": "label2",
+              "text": "$data.Subject"
+            }
+          ],
+          "onItemClick": {
+            "logic": {
+              "variables": [],
+              "calls": [
+                {
+                  "_type": "NavigateToView",
+                  "viewId": "view2",
+                  "viewParameters": [
+                    {
+                      "name": "incident",
+                      "valueExpr": "$data"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "editConfig": {
+            "allowItemDeleting": true,
+            "itemDeleteMode": "slideItem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "view2",
+      "title": "Incident Details",
+      "refreshWhenShown": true,
+      "commands": [
+        {
+          "id": "save",
+          "type": "command",
+          "title": "Save",
+          "icon": "save",
+          "container": null,
+          "disabled": false,
+          "visible": true,
+          "buttonType": "normal",
+          "showIcon": {
+            "phone": true,
+            "tablet": true,
+            "desktop": false
+          },
+          "showText": {
+            "phone": false,
+            "tablet": false,
+            "desktop": true
+          },
+          "onExecute": {
+            "logic": {
+              "variables": [],
+              "calls": [
+                {
+                  "_type": "Save",
+                  "objectExpr": "$model.incident",
+                  "storeId": "dataProvider1"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "model": [],
+      "functions": [],
+      "dataSources": [],
+      "components": [
+        {
+          "type": "form",
+          "style": {},
+          "id": "form1",
+          "items": [
+            {
+              "type": "label",
+              "style": {
+                "paddingLeft": "0px",
+                "paddingBottom": "10px",
+                "paddingTop": "0px",
+                "fontSize": "14px"
+              },
+              "title": "Id",
+              "text": "$model.incident.Id",
+              "id": "formitem1"
+            },
+            {
+              "type": "input",
+              "style": {
+                "paddingTop": "auto",
+                "paddingLeft": "auto",
+                "paddingBottom": "auto",
+                "height": "auto"
+              },
+              "title": "Status",
+              "id": "formitem2",
+              "value": "$model.incident.StatusString"
+            },
+            {
+              "type": "textarea",
+              "style": {
+                "height": "200px",
+                "paddingTop": "auto",
+                "paddingLeft": "auto",
+                "paddingBottom": "auto"
+              },
+              "id": "textarea1",
+              "title": "Subject",
+              "value": "$model.incident.Subject"
+            }
+          ]
+        }
+      ],
+      "params": [
+        {
+          "name": "incident",
+          "type": "dataProvider1",
+          "defaultValue": {
+            "StatusString": "In Progress"
+          },
+          "shared": null,
+          "optional": true
+        }
+      ],
+      "type": "view"
+    }
+  ],
+  "navigation": {
+    "defaultView": "view1",
+    "title": "Navigation",
+    "items": [
+      {
+        "isView": true,
+        "id": "view1",
+        "onExecute": null,
+        "title": "Incidents",
+        "icon": null,
+        "visible": true
+      }
+    ]
+  },
+  "authentication": {
+    "loginView": null,
+    "url": null,
+    "requestMethod": null,
+    "headersExpr": null,
+    "dataExpr": null
+  },
+  "authorization": {
+    "allowAnonymous": true,
+    "locations": [],
+    "loginView": null
+  },
+  "description": null,
+  "author": {
+    "name": null,
+    "email": null,
+    "website": null
+  },
+  "params": [],
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABD1JREFUeNrs3E1LFWsAwPEz1kJ3FbSJLgZCtuiNyqysyLpFkb1Bi7Z9g/sh7rZVHyCIFi2EFgWCBVLSi3Xv7QUJCloIEYShbkohcjqne2rmmTlahBPN8PutnFExPP+eZ+Z5zhh9PNVTg5/V5leAgBAQAkJAICAEhIAQEAgIASEgBAQCQkAICAGBgBAQAkJACAgEhIAQEAICASEgBISAQEAICAEhIBAQAkJACAgBgYAQEAJCQCAgBISAEBAICAEhIAQEAkJACAgBgYAQEAJCQAgIBISAEBACAgEhIASEgEBACAgBISAQEAJCQAgIAYGAEBACQkAgIASEgBAQCAgBISAEBAJCQAgIASEgEBACQkAICASEgBAQAgIBISAEhIBAQAgIASEgEBACQkAICAGBgBAQAkJAICAEhIAQEAgIASEgKmS5X0FZ/+v/9Xf0x7pvh/ODl+P7w/kvW3bhSvpw/tLFeHxMQNRq795GB44kPfUf+5QLKNp9JOpanxzPzS5tPaawEpu/cTVoZfO22orV2YB69wff8mDUNRBfzUzG40+Sw/aOtv6B7Ku7ZUf6ML51XUCkgvj3fjDebN8dHG7sra1clXzxm9dLPn8JqOSz2LVL9cuaVDFbo87u5HDPwaC2eyNu48kNQs/+C0adfclldbS1Z5FrJgHxJYuRoSCgPf3NDzq7ozVrk87qV0szkwIiNwLVb92np5KA1qz9fxZLD0WNzm4PF/QPEFD5B6Gn/+RnsWjDpuTU3Gx8c1BALDAIhTfnjVlsxer6BXVSWAHLPwKqUEDjY/Vb9PQsllkQKmL5R0DVaii8RY8On0g+Vczyj4CqFdBocI0c3H8Vs/wjoGoFNPEi2NZIX2IXs/wjoMo1FG5rNE8+vFvQ8o+AKnczP3KjxclHd4v+uQKqipnJxniTNj1V3PKPgKo4i314HxxOvfsFP1RA1ZF590/UtT69OS8gFpN590/zZLgjJiAWfiFPnmtx8tBxAfFjI9DmbS3OrlzVGJkExHdexTPna+0drcP684SA+N7wE74bOr232rZrn4BYtJ7O7vSbN+JXL2uvJ5JPt3dEh88KiIUDCm+14sdjmQXotp4+AbHwSxjeasWjw/Gj20FhO/vyzxwKiC9x5B/+mniRfeaw8eDzgIBo9fqFyz/xy+fNDzLPHO49JCBajUDh8s+3d69mNueL29YQUJmHn8zyz/RU8u7V3CxW0LaGgMo8/ITLP5nnezKzWEHbGgIqrfDZnUYxY3eCnuqzWOrJ+YK2NQRU2vlrINw9nZvN/oWy+iyWeXK+gG0NAZV2/vr6GHxz+AlbaQ5CmRXFArY1/Im7ctZTv6Wa/dDYtUgmrKH8l8U3B+Ojp4Nv3Ni7tI+JRR9P9Xg9MIUhIASEgEBACAgBISAQEAJCQAgIBISAEBACAgEhIASEgBAQCAgBISAEBAJCQPzOPgswAOz3/y8bsF2MAAAAAElFTkSuQmCC",
+  "appProtocol": null,
+  "theme": {
+    "colorHue": "",
+    "colorAccent": "",
+    "colorSelectedText": "",
+    "appearance": "generic",
+    "base-accent": null,
+    "base-text-color": null,
+    "base-bg": null,
+    "base-border-color": null,
+    "base-border-radius": null
+  },
+  "schemeVersion": 9,
+  "shortTitle": null,
+  "version": "1.0.0",
+  "targetDevice": "universal",
+  "onStarted": null
+}

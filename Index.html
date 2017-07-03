@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Demo Service</title>
+    <!--<link href="style.css" rel="stylesheet">-->
+    <style>
+        body {
+            font-family: 'Segoe UI', 'San Francisco', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;
+            line-height: 1.8;
+            color: #666666;
+            padding-left: 30px;
+            background-color: #3f4158;
+            background-image: url(data:image/gif;base64,R0lGODlhBwAHAKIAAOvr6+jo6O7u7urq6u3t7efn5+/v7wAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4zLWMwMTEgNjYuMTQ1NjYxLCAyMDEyLzAyLzA2LTE0OjU2OjI3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5M0FGODI0QzRDRDcxMUU1OTU2M0EwRkE4RjlDNDJEQiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5M0FGODI0RDRDRDcxMUU1OTU2M0EwRkE4RjlDNDJEQiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkzQUY4MjRBNENENzExRTU5NTYzQTBGQThGOUM0MkRCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjkzQUY4MjRCNENENzExRTU5NTYzQTBGQThGOUM0MkRCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAcABwAAAxIItlO1phXCHI22ziWyEcH2hQkAOw==);
+        }
+
+        a {
+            color: #0084cf;
+        }
+
+        .content-container {
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            width: 650px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-top: 0;
+        }
+
+        .btn {
+            -webkit-border-radius: 4;
+            -moz-border-radius: 4;
+            border-radius: 4px;
+            color: #393939;
+            font-size: 1rem;
+            background: #f9f9f9;
+            padding: 10px 16px 10px 16px;
+            border: solid #dddddd 1px;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            outline: none;
+        }
+
+        .btn:hover {
+            background: #f2f2f2;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function runInSimulator(target) {
+            window.open(
+                "https://xenarius-app.azurewebsites.net/Simulator/?appPage=%2Fplayer.html%3Fapp%3Dhttps:%2F%2Flocalhost:44305%2Fxapp%2F" +
+                target + ".xapp");
+        }
+    </script>
+    <div class="content-container">
+        <h1>Service for <a href="https://xenarius.net/">Xenarius</a> demo applications</h1>
+        <p>This demo service provides basic data for viewing and editing incident tickets by IT-system administrators.</p>
+        <h2>Initialization</h2>
+        <p>To generate a test database, run the following commands in Package Manager Console<br><b>Tools &#8594; Library Package Manager &#8594; Package Manager Console</b>:</p>
+
+        <p>
+            <ul>
+                <li><code>sqllocaldb.exe stop v11.0</code></li>
+                <li><code>sqllocaldb.exe delete v11.0</code></li>
+                <li><code>Update-database</code></li>
+            </ul>
+        </p>
+        <h2>Service API</h2>
+        <p>The service provides data about <a href="https://localhost:44305/odata/Incidents">incident tickets</a> and persons.
+            If demo applications don't work properly, please, ensure that these links work.</p>
+        <h2>Demo applications</h2>
+        <p>We provide two demo applications working with this service:</p>
+        <ol>
+            <li>The first application is the result of completing the <a href="https://github.com/DevExpress/xenarius-demoservice/blob/master/README.md">Getting Started</a> guide.
+                <br><input class="btn" type="button" value="Run in simulator" onclick="runInSimulator('getting-started')"></li>
+            <li>The sesond application demonstrates a more complicated scenario described at&nbsp;<a href="https://xenarius.net/docs/help-desk-demo/">Help&nbsp;Desk&nbsp;Demo</a>.
+                <br><input class="btn" type="button" value="Run in simulator" onclick="runInSimulator('helpdesk-demo')"></li>
+        </ol>
+        <h2>Technical Support Inquiries</h2>
+        <p>Please contact us via email at <a href="mailto:help@xenarius.net">help@xenarius.net</a></p>
+    </div>
+</body>
+
+</html>

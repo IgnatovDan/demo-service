@@ -1,0 +1,2319 @@
+[
+    {
+        "SupportNumber":0,
+        "StatusString":"In Progress",
+        "Oid":"e7d25db3-7a1c-42ce-a21c-077777398700",
+        "ContactOid":"cf2c0e95-fcda-49b7-994d-6d65fa3659eb",
+        "Id":93702,
+        "NewDescription":null,
+        "ContactFullName":"Tom Wilson",
+        "Subject":"Broken Laptop",
+        "Status":"Executing",
+        "CreatedOn":"2014-10-17T11:28:56.42",
+        "Messages":[
+            {
+                "Oid":"21ad80c1-c2d4-474e-aeb0-e4e4aaa9b293",
+                "CreatedBy":"Paul Martinez (IT-Services LLC)",
+                "CreatedOn":"2014-10-17T11:34:31.257",
+                "DescriptionText":"Tom Wilson.\r\nPhone ********\r\nNo support code. Got it from Moore. User configured it himself.\r\nFirst, it began with BSOD. Messages about problems with memory. Now doesn't start at all. Just white stripes when starting.",
+                "StatusText":"Incident 93702 Broken Laptop. Created. New Or Changed By Client\r\nAssigned: Brown J."
+            },
+            {
+                "Oid":"adac629c-9a3b-44a7-8010-1621b6a80af6",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-17T11:45:42.107",
+                "DescriptionText":"",
+                "StatusText":"Incident 93702. Assigned."
+            },
+            {
+                "Oid":"b05d0a94-21ac-4fbf-a428-1c24169067ce",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-17T13:14:02.097",
+                "DescriptionText":"",
+                "StatusText":"Incident 93702. In Progress."
+            },
+            {
+                "Oid":"e0bbf96c-781a-428c-902c-c7d81bccdb8b",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-17T15:21:15.097",
+                "DescriptionText":"Client is working on a different PC. Gave laptop HDD to the client for moving data to a new PC.",
+                "StatusText":""
+            },
+            {
+                "Oid":"c1e4c752-3530-4edc-870b-839238d09c8c",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-17T15:21:38.307",
+                "DescriptionText":"Laptop will go to the service center for diagnostics.",
+                "StatusText":""
+            }
+        ]
+    },
+    {
+        "SupportNumber":38571,
+        "StatusString":"Returned",
+        "Oid":"40a1a691-3b6c-4ac0-a8ec-033b1329ee7a",
+        "ContactOid":"0d5c164e-b3ab-4df4-9dab-b547d76a444c",
+        "Id":93646,
+        "NewDescription":null,
+        "ContactFullName":"Ryan Shaw",
+        "Subject":"Static IP-address",
+        "Status":"Return",
+        "CreatedOn":"2014-10-16T12:21:12.727",
+        "Messages":[
+            {
+                "Oid":"3eb0ae6d-3b00-4204-9252-f928b2e3ee4a",
+                "CreatedBy":"Ryan Shaw (Xenarius Inc)",
+                "CreatedOn":"2014-10-16T12:23:44.773",
+                "DescriptionText":"Would like to assign a static IP address for a device with MAC address a8:8e:24:a1:89:23",
+                "StatusText":"Incident 93646 Static IP-address. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"732e036a-795e-494c-87bd-710e6f1f4038",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-16T12:25:53.467",
+                "DescriptionText":"",
+                "StatusText":"Incident 93646. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"9e138822-c671-4227-9456-a7572a8ab431",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-16T12:39:42.683",
+                "DescriptionText":"reservation added",
+                "StatusText":"Incident 93646. Completed."
+            },
+            {
+                "Oid":"aa4be5ec-63be-4ad0-9721-dffec633345a",
+                "CreatedBy":"Ryan Shaw (Xenarius Inc)",
+                "CreatedOn":"2014-12-17T16:12:09.33",
+                "DescriptionText":"",
+                "StatusText":"Incident 93646. Returned."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Completed",
+        "Oid":"ad04d8ef-fd2c-410a-ad1c-8e8c83aab742",
+        "ContactOid":"950734ed-a23f-4583-8a8d-ef4a82fe8a41",
+        "Id":93621,
+        "NewDescription":null,
+        "ContactFullName":"Edward Moore",
+        "Subject":"Asking for a mouse for Keith in 502",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-15T19:02:14.83",
+        "Messages":[
+            {
+                "Oid":"6f717a72-b824-40c5-991f-e23d70d4df5e",
+                "CreatedBy":"Edward Moore (Xenarius Inc)",
+                "CreatedOn":"2014-10-15T19:02:47.893",
+                "DescriptionText":"Asking for a mouse for Keith in 502",
+                "StatusText":"Incident 93621 Asking for a mouse for Keith in 502. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"944ec690-bc90-4d28-bc14-20d0d56a4f1a",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-15T19:18:13.827",
+                "DescriptionText":"Please take from Burns in 707. Please let me know if there is none. Will bring more at the next visit.",
+                "StatusText":"Incident 93621. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"e0b3c4c5-6d56-46f2-b197-30baf40d24ff",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-16T10:24:25.48",
+                "DescriptionText":"",
+                "StatusText":"Incident 93621. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"0a250904-31d9-4384-a4a2-66bd1e65ebe7",
+        "ContactOid":"b4d67a18-1b80-42f6-8272-c0384756cae6",
+        "Id":93612,
+        "NewDescription":null,
+        "ContactFullName":"Anthony Nguyen",
+        "Subject":"Auto-updates would not install on the server services05",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-15T14:10:43.91",
+        "Messages":[
+            {
+                "Oid":"d0e1d602-bcff-4ae8-b935-155524e6551f",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-15T14:10:43.987",
+                "DescriptionText":"List of new categories and products:\r\nMicrosoft \\ ASP.NET Web and Data Frameworks\r\nMicrosoft \\ ASP.NET Web and Data Frameworks \\ ASP.NET Web Frameworks\r\nMicrosoft \\ Microsoft Azure \\ Service Bus for Windows Server 1.1",
+                "StatusText":"Incident 93612 Auto-updates would not install on the server services05. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"35c95ee3-df21-40f7-b089-9c995e5b0c4c",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-15T15:13:25.753",
+                "DescriptionText":"accepted",
+                "StatusText":"Incident 93612. Closed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"58d82b6f-cb0c-4022-a93d-0651497816f1",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-16T14:10:38.587",
+                "DescriptionText":"Auto-updates install correctly.\r\n\r\nAuto-check log:\r\n\r\nFunction 01bc83b0-b460-4722-a5e0-2d67f8d3d97f\r\nCheck script wsus_services05_newProducts.ps1\r\nHost WDS\r\n\r\nLoading WSUS API ... ОК\r\nTrying to connect to WSUS server services05 ... ОК\r\n\r\nFetching new products and categories, published today ... none\r\nFetching new classifieds, published today ... none\r\n",
+                "StatusText":""
+            }
+        ]
+    },
+    {
+        "SupportNumber":38497,
+        "StatusString":"Completed",
+        "Oid":"054895bb-d781-4b03-93a8-f10758914fbf",
+        "ContactOid":"c8a0b77c-a20c-42ff-ac06-8ac3d58ebe54",
+        "Id":93608,
+        "NewDescription":null,
+        "ContactFullName":"Albert Olson",
+        "Subject":"Ethernet stopped working in 1005",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-15T13:02:39.457",
+        "Messages":[
+            {
+                "Oid":"cf410516-18cd-4c1b-b7b6-820163b21f19",
+                "CreatedBy":"Albert Olson (Xenarius Inc)",
+                "CreatedOn":"2014-10-15T13:03:28.707",
+                "DescriptionText":"",
+                "StatusText":"Incident 93608 Ethernet stopped working in 1005. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"bf8db514-b635-494c-85b1-24f80b7a2da4",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-15T13:08:29.08",
+                "DescriptionText":"",
+                "StatusText":"Incident 93608. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"cfe3d54e-bc5b-41e2-a7e6-6ee6450e2dc8",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-15T15:16:55.99",
+                "DescriptionText":"Installed new network switch, had problems with qualcomm atheros cards. Replaced with realtek cards.",
+                "StatusText":"Incident 93608. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"405dce06-d574-4d7b-a25e-1165ce684b87",
+        "ContactOid":"c9a7a3a8-ef73-496f-ab12-f93c589f7398",
+        "Id":93531,
+        "NewDescription":null,
+        "ContactFullName":"Charles Moore",
+        "Subject":"Host 192.168.98.1 cannot be reached",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-13T12:01:23.507",
+        "Messages":[
+            {
+                "Oid":"86c469fe-5d5b-40ed-85d3-88ebe15d6967",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-13T12:01:23.537",
+                "DescriptionText":"If the problem persists, we'll have to search for the root cause - ISP problems, hardware problems, insufficient account balance, etc.\r\n\r\n\r\nping 192.168.98.1\r\n\r\nPinging 192.168.98.1 with 32 bytes of data:\r\nRequest timed out.\r\nRequest timed out.\r\nRequest timed out.\r\nRequest timed out.\r\nPing statistics for 192.168.98.1:\r\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\r\ntracert /h 5 /d 192.168.98.1\r\n\r\nTracing route to 192.168.98.1 over a maximum of 5 hops\r\n  1    <1 ms    <1 ms    <1 ms  192.168.100.200 \r\n  2     3 ms     3 ms     3 ms  68.164.92.141 \r\n  3     *        *        *     Request timed out.",
+                "StatusText":"Incident 93531 Host 192.168.98.1 cannot be reached. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"6a022322-9631-467c-a298-5055ffd4b125",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-13T12:15:22.24",
+                "DescriptionText":"Host 192.168.98.1 works correctly.\r\n\r\nAuto-check log:\r\n\r\nFunction e4d54453-4531-4108-bc62-c930aa2191bb\r\nCheck script officeConnection_ISP_ping_192168981.ps1\r\nHost LA-SERVICES01\r\n\r\nChecking network connection to 192.168.98.1 ... ОК\r\nAvg. response time: 95 ms\r\n",
+                "StatusText":""
+            },
+            {
+                "Oid":"d283fa12-ac86-4b98-920e-f663d8e052ff",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-10-13T12:31:08.38",
+                "DescriptionText":"",
+                "StatusText":"Incident 93531. Closed.\r\nAssigned: Smith E."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"00509734-e7b2-4e54-a9c0-c805da801615",
+        "ContactOid":"c9a7a3a8-ef73-496f-ab12-f93c589f7398",
+        "Id":93530,
+        "NewDescription":null,
+        "ContactFullName":"Charles Moore",
+        "Subject":"Agent task DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 on the DB01 database server runs into an error",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-13T11:47:43.223",
+        "Messages":[
+            {
+                "Oid":"9b3bbdf5-6e26-41a8-a94e-0000457b36e5",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-13T11:47:43.27",
+                "DescriptionText":"Recent server message\r\n\r\n2014-10-13 07:45:00.138 Copyright (c) 2008 Microsoft Corporation\r\n2014-10-13 07:45:00.138 Microsoft SQL Server Replication Agent: replmerg\r\n2014-10-13 07:45:00.138 \r\n2014-10-13 07:45:00.138 The timestamps prepended to the output lines are expressed in terms of UTC time.\r\n2014-10-13 07:45:00.138 User-specified agent parameter values:\r\n\t\t\t-Publisher DB4-RS\r\n\t\t\t-PublisherDB ClientCenter\r\n\t\t\t-Publication ClientCenter\r\n\t\t\t-Subscriber DB01\r\n\t\t\t-SubscriberDB ClientCenter\r\n\t\t\t-SubscriptionType 1\r\n\t\t\t-SubscriberSecurityMode 1\r\n\t\t\t-Distributor DB4-RS\r\n\t\t\t-ParallelUploadDownload 1\r\n\t\t\t-XJOBID 0x3C1B7ADBEE8E01489166D4110FB7EBA6\r\n\t\t\t-XJOBNAME DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0\r\n\t\t\t-XSTEPID 1\r\n\t\t\t-XSUBSYSTEM Merge\r\n\t\t\t-XSERVER DB01\r\n\t\t\t-XCMDLINE 0\r\n\t\t\t-XCancelEventHandle 0000000000000C50\r\n\t\t\t-XParentProcessHandle 0000000000000670\r\n2014-10-13 07:45:00.149 Connecting to Subscriber 'DB01'\r\n2014-10-13 07:45:00.224 Connecting to Distributor 'DB4-RS'\r\n2014-10-13 07:45:31.442 The process could not connect to Distributor 'DB4-RS'.\r\n2014-10-13 07:45:31.443 Category:AGENT\r\nSource:  Merge Process\r\nNumber:  20084\r\nMessage: The process could not connect to Distributor 'DB4-RS'.\r\n2014-10-13 07:45:31.443 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  5\r\nMessage: Named Pipes Provider: Could not open a connection to SQL Server [5]. \r\n2014-10-13 07:45:31.444 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  5\r\nMessage: A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.\r\n2014-10-13 07:45:31.444 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: Login timeout expired\r\n2014-10-13 07:45:31.445 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: The merge process failed to execute a query because the query timed out. If this failure continues, increase the query timeout for the process. When troubleshooting, restart the synchronization with verbose history logging and specify an output file to which to write.\r\n2014-10-13 07:45:31.445 The merge process will restart after waiting 30 second(s)...\r\nConnecting to Subscriber 'DB01'\r\n2014-10-13 07:46:01.458 Connecting to Distributor 'DB4-RS'\r\n2014-10-13 07:46:24.313 Thread id 2496 is attempting to re-establish the connection to Distributor 'DB4-RS'.\r\n2014-10-13 07:46:46.389 Thread id 2496 failed to re-establish connection to Distributor 'DB4-RS'. Ensure that the server is online and accepting connections.\r\n2014-10-13 07:46:46.393 Named Pipes Provider: Could not open a connection to SQL Server [5]. \r\n2014-10-13 07:46:46.394 Category:SQLSERVER\r\nSource:  Merge Process\r\nNumber:  5\r\nMessage: Named Pipes Provider: Could not open a connection to SQL Server [5]. \r\n2014-10-13 07:46:46.394 Category:COMMAND\r\nSource:  Failed Command\r\nNumber:  0\r\nMessage: {call sp_MSgetversion }\r\n2014-10-13 07:46:46.395 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  5\r\nMessage: A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.\r\n2014-10-13 07:46:46.395 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: Login timeout expired\r\n2014-10-13 07:46:46.396 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: The merge process failed to execute a query because the query timed out. If this failure continues, increase the query timeout for the process. When troubleshooting, restart the synchronization with verbose history logging and specify an output file to which to write.\r\n\r\n\r\nLog in to the server and check task settings and agent logs.",
+                "StatusText":"Incident 93530 Agent task DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 on the DB01 database server runs into an error. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"e9daeb7e-3200-4fd9-bfc2-75bc02767292",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-13T12:03:18.49",
+                "DescriptionText":"Recent server message\r\n\r\n2014-10-13 08:00:00.671 Copyright (c) 2008 Microsoft Corporation\r\n2014-10-13 08:00:00.671 Microsoft SQL Server Replication Agent: replmerg\r\n2014-10-13 08:00:00.671 \r\n2014-10-13 08:00:00.671 The timestamps prepended to the output lines are expressed in terms of UTC time.\r\n2014-10-13 08:00:00.671 User-specified agent parameter values:\r\n\t\t\t-Publisher DB4-RS\r\n\t\t\t-PublisherDB ClientCenter\r\n\t\t\t-Publication ClientCenter\r\n\t\t\t-Subscriber DB01\r\n\t\t\t-SubscriberDB ClientCenter\r\n\t\t\t-SubscriptionType 1\r\n\t\t\t-SubscriberSecurityMode 1\r\n\t\t\t-Distributor DB4-RS\r\n\t\t\t-ParallelUploadDownload 1\r\n\t\t\t-XJOBID 0x3C1B7ADBEE8E01489166D4110FB7EBA6\r\n\t\t\t-XJOBNAME DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0\r\n\t\t\t-XSTEPID 1\r\n\t\t\t-XSUBSYSTEM Merge\r\n\t\t\t-XSERVER DB01\r\n\t\t\t-XCMDLINE 0\r\n\t\t\t-XCancelEventHandle 0000000000000C3C\r\n\t\t\t-XParentProcessHandle 0000000000000BE4\r\n2014-10-13 08:00:00.682 Connecting to Subscriber 'DB01'\r\n2014-10-13 08:00:00.757 Connecting to Distributor 'DB4-RS'\r\n2014-10-13 08:00:45.691 The process could not connect to Distributor 'DB4-RS'.\r\n2014-10-13 08:00:45.693 Category:AGENT\r\nSource:  Merge Process\r\nNumber:  20084\r\nMessage: The process could not connect to Distributor 'DB4-RS'.\r\n2014-10-13 08:00:45.694 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  53\r\nMessage: Named Pipes Provider: Could not open a connection to SQL Server [53]. \r\n2014-10-13 08:00:45.695 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  53\r\nMessage: A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.\r\n2014-10-13 08:00:45.696 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: Login timeout expired\r\n2014-10-13 08:00:45.696 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: The merge process failed to execute a query because the query timed out. If this failure continues, increase the query timeout for the process. When troubleshooting, restart the synchronization with verbose history logging and specify an output file to which to write.\r\n2014-10-13 08:00:45.697 The merge process will restart after waiting 30 second(s)...\r\nConnecting to Subscriber 'DB01'\r\n2014-10-13 08:01:15.714 Connecting to Distributor 'DB4-RS'\r\n2014-10-13 08:01:58.196 The process could not connect to Distributor 'DB4-RS'.\r\n2014-10-13 08:01:58.197 Category:AGENT\r\nSource:  Merge Process\r\nNumber:  20084\r\nMessage: The process could not connect to Distributor 'DB4-RS'.\r\n2014-10-13 08:01:58.198 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  53\r\nMessage: Named Pipes Provider: Could not open a connection to SQL Server [53]. \r\n2014-10-13 08:01:58.199 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  53\r\nMessage: A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.\r\n2014-10-13 08:01:58.200 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: Login timeout expired\r\n2014-10-13 08:01:58.200 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: The merge process failed to execute a query because the query timed out. If this failure continues, increase the query timeout for the process. When troubleshooting, restart the synchronization with verbose history logging and specify an output file to which to write.\r\n\r\n\r\nLog in to the server and check task settings and agent logs.",
+                "StatusText":""
+            },
+            {
+                "Oid":"ebbd23b5-1586-4225-9c77-05e3f595d906",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-13T12:17:20.1",
+                "DescriptionText":"Agent task DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 works well.\r\n\r\nAuto-check log:\r\n\r\nFunction e57095b7-54e7-42d4-bca7-39fc2cb9c865\r\nCheck script database_ClientCenter_DB01_agentJob_DB4RSClientCenterClientCenterDB01ClientCenter0.ps1\r\nHost WDS\r\n\r\nChecking network connection to DB01 ... ОК\r\nChecking server edition ... ОК\r\nRequesting the latest result of the DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 task\r\nThe task is in progress\r\n",
+                "StatusText":""
+            },
+            {
+                "Oid":"7c382527-efa5-49af-9b82-534d2367a1c5",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-13T12:32:13.633",
+                "DescriptionText":"",
+                "StatusText":"Incident 93530. Closed.\r\nAssigned: Smith E."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38032,
+        "StatusString":"Closed",
+        "Oid":"f55e217b-7755-46d3-b30f-51d10e608b6e",
+        "ContactOid": "c9a7a3a8-ef73-496f-ab12-f93c589f7398",
+        "Id":93526,
+        "NewDescription":null,
+        "ContactFullName":null,
+        "Subject":"Configure autostart in REPORTTESTER's BIOS",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-13T10:27:58.11",
+        "Messages":[
+            {
+                "Oid":"89cb38f2-787b-4ba9-9e4d-ae3c86995cd7",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-13T10:29:25.7",
+                "DescriptionText":"Located in 1005, folks in there will show you. Just in case check the UPS and change if necessary.",
+                "StatusText":"Incident 93526 Configure autostart in REPORTTESTER's BIOS. Created. New Or Changed By Client\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"daaeb3c7-61f7-4750-b014-b5bd624dfeb2",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-13T14:28:06.893",
+                "DescriptionText":"",
+                "StatusText":"Incident 93526. Assigned."
+            },
+            {
+                "Oid":"925d7147-0f5e-4778-9f4b-89eec2919320",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-13T17:18:32.077",
+                "DescriptionText":"Configured to start on power-on.",
+                "StatusText":"Incident 93526. Completed."
+            },
+            {
+                "Oid":"cc955310-c4cc-43db-9f4f-4e2b8a4dfece",
+                "CreatedBy":"Lynn Fields (Xenarius Inc)",
+                "CreatedOn":"2014-12-26T15:36:57.313",
+                "DescriptionText":"",
+                "StatusText":"Incident 93526. Returned."
+            },
+            {
+                "Oid":"9d44e961-daa8-4dd6-9e94-7d7d295e212f",
+                "CreatedBy":"Lynn Fields (Xenarius Inc)",
+                "CreatedOn":"2014-12-26T15:39:08.993",
+                "DescriptionText":"",
+                "StatusText":"Incident 93526. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38721,
+        "StatusString":"Closed",
+        "Oid":"c2ea7c78-e35b-4031-b964-e730c382cfb6",
+        "ContactOid":"c8a0b77c-a20c-42ff-ac06-8ac3d58ebe54",
+        "Id":93484,
+        "NewDescription":null,
+        "ContactFullName":"Albert Olson",
+        "Subject":"The user Webster.Steven changed his password and cannot log in. probably, forgot. reset to 1Qwerty1",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-10T16:52:25.347",
+        "Messages":[
+            {
+                "Oid":"d90edbc2-22c8-4e11-9f68-01b00aa9bf5e",
+                "CreatedBy":"Albert Olson (Xenarius Inc)",
+                "CreatedOn":"2014-10-10T16:54:57.503",
+                "DescriptionText":"",
+                "StatusText":"Incident 93484 The user Webster.Steven changed his password and cannot log in. probably, forgot. reset to 1Qwerty1. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"90d7fef8-3a0f-4cff-bd3a-9dccf917e109",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-10T17:01:14.263",
+                "DescriptionText":"Reset to 1Qwerty1",
+                "StatusText":"Incident 93484. Completed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"c971b7b8-7e23-4000-b70c-b46ac5a6adcc",
+                "CreatedBy":"Albert Olson (Xenarius Inc)",
+                "CreatedOn":"2014-10-10T17:11:01.363",
+                "DescriptionText":"",
+                "StatusText":"Incident 93484. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38360,
+        "StatusString":"Completed",
+        "Oid":"c70f5225-4757-4085-b32c-ecc61b627742",
+        "ContactOid":"6a075549-ab74-4ab1-be9a-cc47ffc155d9",
+        "Id":93481,
+        "NewDescription":null,
+        "ContactFullName":"James White",
+        "Subject":"BLACKBOX server unreachable",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-10T15:05:50.457",
+        "Messages":[
+            {
+                "Oid":"487c4901-2f17-45da-841d-0f865afb8206",
+                "CreatedBy":"James White (Xenarius Inc)",
+                "CreatedOn":"2014-10-10T15:06:32.503",
+                "DescriptionText":"Pinging blackbox.corp.xenarius.net [172.22.0.27] with 32 bytes of data:\r\nReply from 172.22.5.82: Destination host unreachable.\r\nReply from 172.22.5.82: Destination host unreachable.\r\nReply from 172.22.5.82: Destination host unreachable.\r\nReply from 172.22.5.82: Destination host unreachable.\r\n\r\nPing statistics for 172.22.0.27:\r\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),",
+                "StatusText":"Incident 93481 BLACKBOX server unreachable. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"970a253d-54aa-4819-95bf-5c6bbb0f4200",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-10T15:19:51.3",
+                "DescriptionText":"Engineer on the way.",
+                "StatusText":"Incident 93481. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"e91f70b8-8b35-4a5f-a0b7-760ba99d176b",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-10T15:41:02.4",
+                "DescriptionText":"The server is up",
+                "StatusText":"Incident 93481. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38479,
+        "StatusString":"Returned",
+        "Oid":"641771d8-919f-4c22-831b-6a52afb4afd8",
+        "ContactOid":"e4d37fb6-5ad2-49fa-805e-37f40b159799",
+        "Id":93477,
+        "NewDescription":null,
+        "ContactFullName":"Doug Schneider",
+        "Subject":"Laptop previously used by Margaret Reid",
+        "Status":"Return",
+        "CreatedOn":"2014-10-10T13:53:38.003",
+        "Messages":[
+            {
+                "Oid":"1dda9b70-e79b-4195-9233-1e9df5af9990",
+                "CreatedBy":"Doug Schneider (Xenarius Inc)",
+                "CreatedOn":"2014-10-10T13:55:00.503",
+                "DescriptionText":"Margaret now works on a replacement PC, but what happened to her laptop? Did you manage to fix it? ",
+                "StatusText":"Incident 93477 Laptop previously used by Margaret Reid. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"6e6a98a1-fdd0-42a9-8dd1-c2efe0144b99",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-10T14:20:21.57",
+                "DescriptionText":"It's fixed. Now in Charles Moore's room. HDD has died.",
+                "StatusText":"Incident 93477. Completed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"7c35c363-c58a-4105-a46a-8834e35f6f8b",
+                "CreatedBy":"Lynn Fields (Xenarius Inc)",
+                "CreatedOn":"2014-12-26T15:48:38.467",
+                "DescriptionText":"",
+                "StatusText":"Incident 93477. Returned."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38639,
+        "StatusString":"Completed",
+        "Oid":"6d117ee3-dfc5-42a6-84a7-762e6f8a5680",
+        "ContactOid":"35541f0e-604d-4339-b73f-633f3b573c3a",
+        "Id":93468,
+        "NewDescription":null,
+        "ContactFullName":"Freda Owens",
+        "Subject":"Enable VPN access",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-10T11:21:52.647",
+        "Messages":[
+            {
+                "Oid":"04aa2046-d681-4615-809b-1c5bb3961e2f",
+                "CreatedBy":"Abraham Munoz (Xenarius Inc)",
+                "CreatedOn":"2014-10-10T11:24:49.647",
+                "DescriptionText":"Enable VPN access for the user Owens.Freda",
+                "StatusText":"Incident 93468 Enable VPN access. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"7f8b92c9-c5d6-41ab-94d7-04f41dd21d2c",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-10T11:30:38.2",
+                "DescriptionText":"Enabled",
+                "StatusText":"Incident 93468. Completed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"6d25aceb-b272-484f-9927-2a67006f532a",
+                "CreatedBy":"Abraham Munoz (Xenarius Inc)",
+                "CreatedOn":"2014-10-10T15:53:15.363",
+                "DescriptionText":"Cannot connect.\r\nAre vpn servers up? They cannot be pinged (vpn-dev.xenarius.net and vpn-dev2.xenarius.net). If they are up - close the ticket, the Internet provider is possibly to blame.",
+                "StatusText":"Incident 93468. Returned."
+            },
+            {
+                "Oid":"a5394098-1ae2-4533-a6b6-b3e7a87c6861",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-10T16:01:37.01",
+                "DescriptionText":"They are up",
+                "StatusText":"Incident 93468. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38779,
+        "StatusString":"Completed",
+        "Oid":"de7101df-13a7-49cd-9011-d848dcca59f9",
+        "ContactOid":"c8a0b77c-a20c-42ff-ac06-8ac3d58ebe54",
+        "Id":93466,
+        "NewDescription":null,
+        "ContactFullName":"Albert Olson",
+        "Subject":"When a PC is starting, a monitor connected thorugh HDMI begins flashing",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-10T11:12:01.003",
+        "Messages":[
+            {
+                "Oid":"5d97b81b-4646-4917-9260-6ea44d372d7f",
+                "CreatedBy":"Albert Olson (Xenarius Inc)",
+                "CreatedOn":"2014-10-10T11:17:46.787",
+                "DescriptionText":"room 1005\r\nThe monitor is connected to a laptop through HDMI\r\nWhen using a different monitor, everything is ok, so we suspect that the flashing monitor is broken",
+                "StatusText":"Incident 93466 When a PC is starting, a monitor connected thorugh HDMI begins flashing. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"9eb55348-becb-4c73-8565-40da02dba5a8",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-10T11:19:51.553",
+                "DescriptionText":"",
+                "StatusText":"Incident 93466. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"4197ecc3-0908-4fd6-a2f5-dc4be652db97",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-13T17:18:09.577",
+                "DescriptionText":"New cable provided.",
+                "StatusText":"Incident 93466. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Awaiting",
+        "Oid":"1319c4c5-cb92-458a-90cf-61527b1db2c1",
+        "ContactOid":"8326e3cf-d386-4f6d-82b4-94557921abd6",
+        "Id":93448,
+        "NewDescription":null,
+        "ContactFullName":"Lawrence Burns",
+        "Subject":"Prepare PC with 32Gb RAM",
+        "Status":"Wait",
+        "CreatedOn":"2014-10-09T16:55:21.07",
+        "Messages":[
+            {
+                "Oid":"0c4badff-70f0-4412-81ed-3664c5058a37",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T16:58:51.82",
+                "DescriptionText":"Install Win 7 64",
+                "StatusText":"Incident 93448 Prepare PC with 32Gb RAM. Created. New Or Changed By Client\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"3e998a3f-042d-4a6c-89c7-d6fdb10525f1",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T17:01:27.647",
+                "DescriptionText":"",
+                "StatusText":"Incident 93448. Assigned."
+            },
+            {
+                "Oid":"87c2f3d2-5c87-4abe-bb59-3f0e4014e385",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-14T15:07:28.773",
+                "DescriptionText":"User went on vacation. Probably, will need to add an SSD. Will come back after Oct 22.",
+                "StatusText":"Incident 93448. Awaiting."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Completed",
+        "Oid":"873fe976-1c75-4980-99ab-a7097f98bfbf",
+        "ContactOid":"950734ed-a23f-4583-8a8d-ef4a82fe8a41",
+        "Id":93446,
+        "NewDescription":null,
+        "ContactFullName":"Edward Moore",
+        "Subject":"Wi-fi collapses on the 5th floor, especially in rear rooms and in the kitchen",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-09T16:42:25.933",
+        "Messages":[
+            {
+                "Oid":"835853a2-095c-4c86-822c-2bc8b2858920",
+                "CreatedBy":"Edward Moore (Xenarius Inc)",
+                "CreatedOn":"2014-10-09T20:13:00.307",
+                "DescriptionText":"Hi!\r\nWi-fi collapses from time to time in the kitchen on the 5th floor - as a result, music stops playing :)\r\nThe TVs also lose signal.\r\nThe same do our tablets in 503 and 505 near the wall adjacent to the kitchen.\r\nCan you do something with this? Strengthen the signal probably?\r\n",
+                "StatusText":"Incident 93446 Wi-fi collapses on the 5th floor, especially in rear rooms and in the kitchen. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"5b76b654-70d7-48c1-b1fe-f18a8bcc50e9",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-10T09:22:32.817",
+                "DescriptionText":"",
+                "StatusText":"Incident 93446. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"d31f920f-fa77-4448-a386-fd06f880baee",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-13T15:53:28.48",
+                "DescriptionText":"Decided to collect information about signal quality in 2-3 days again.",
+                "StatusText":"Incident 93446. In Progress."
+            },
+            {
+                "Oid":"deedac66-48d4-40d9-9e53-21706cd1032e",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-17T16:37:39.977",
+                "DescriptionText":"No collapses happened. In case of further problems please reactivate this ticket.",
+                "StatusText":"Incident 93446. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38795,
+        "StatusString":"Completed",
+        "Oid":"7cf5fe09-2487-4ccf-8fb3-2c5892a00f79",
+        "ContactOid":"8326e3cf-d386-4f6d-82b4-94557921abd6",
+        "Id":93445,
+        "NewDescription":null,
+        "ContactFullName":"Lawrence Burns",
+        "Subject":"Configure corporative mail",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-09T16:03:59.683",
+        "Messages":[
+            {
+                "Oid":"1e454b87-dcef-469b-84e5-eecd1c6471ca",
+                "CreatedBy":"Lawrence Burns (Xenarius Inc)",
+                "CreatedOn":"2014-10-09T16:04:48.853",
+                "DescriptionText":"Cannot configure mail. Workplace #38795",
+                "StatusText":"Incident 93445 Configure corporative mail. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"c957a271-20e7-4b09-a24b-be267b4c1d19",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T16:12:26.81",
+                "DescriptionText":"All issues with mail should be addressed to Charles Moore.",
+                "StatusText":"Incident 93445. Completed.\r\nAssigned: Smith E."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38795,
+        "StatusString":"Completed",
+        "Oid":"f196da9f-9dca-44f0-9871-f1d1e1e8fa3d",
+        "ContactOid":"8326e3cf-d386-4f6d-82b4-94557921abd6",
+        "Id":93444,
+        "NewDescription":null,
+        "ContactFullName":"Lawrence Burns",
+        "Subject":"Discrete graphics card needed",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-09T16:02:03.697",
+        "Messages":[
+            {
+                "Oid":"87de39a4-152e-4b45-bf90-545f837cfdf7",
+                "CreatedBy":"Lawrence Burns (Xenarius Inc)",
+                "CreatedOn":"2014-10-09T16:03:26.243",
+                "DescriptionText":"Integrated card lags, rendering artifacts. Workplace #38795. Room 701. ",
+                "StatusText":"Incident 93444 Discrete graphics card needed. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"40047961-cd43-42ba-afee-8acc0d5f6bfa",
+                "CreatedBy":"Terri Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T16:04:56.193",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Smith E."
+            },
+            {
+                "Oid":"c28fc4e5-f36d-43de-b611-1f0a0bdb0e2b",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T16:57:35.59",
+                "DescriptionText":"",
+                "StatusText":"Incident 93444. Assigned."
+            },
+            {
+                "Oid":"bbfe9a7d-6bf5-4f3a-ba43-900186a2d9f4",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-13T17:38:07.98",
+                "DescriptionText":"Video card installed.",
+                "StatusText":"Incident 93444. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"New Or Changed By Client",
+        "Oid":"dbd2f1c7-80d2-470b-a2d9-911ef73c241a",
+        "ContactOid":"a2b68546-b0ff-4794-9c76-5a5e5a4ef803",
+        "Id":93441,
+        "NewDescription":null,
+        "ContactFullName":"Maria Walker",
+        "Subject":"New workplace for Jared Wells in Seattle office by October 13th",
+        "Status":"NewOrChanged",
+        "CreatedOn":"2014-10-09T15:33:40.293",
+        "Messages":[
+            {
+                "Oid":"15c75a58-29ef-4aa4-ada4-eca535ab7836",
+                "CreatedBy":"Maria Walker (Xenarius Inc)",
+                "CreatedOn":"2014-10-09T15:34:50.76",
+                "DescriptionText":"by October 13th, Jared Wells, developer, email: jaredw@xenarius.net, team and supervisor - later",
+                "StatusText":"Incident 93441 New workplace for Jared Wells in Seattle office by October 13th. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"d5bb3c54-ef35-41f3-9bfd-e6ebee5b8bbc",
+                "CreatedBy":"Ana Curtis (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T15:37:37.143",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Smith E."
+            },
+            {
+                "Oid":"e810bb04-cfcf-4e01-9c2f-0b305fbd56fa",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T15:53:20.833",
+                "DescriptionText":"",
+                "StatusText":"Incident 93441. Assigned."
+            },
+            {
+                "Oid":"12a3ebbe-b000-4cd7-8ad0-c27999d00ecd",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-10T09:54:16.223",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Robbins K."
+            },
+            {
+                "Oid":"bcbe3146-ab9a-4879-ba70-1f0b0297d85d",
+                "CreatedBy":"Keith Robbins (IT-Services LLC)",
+                "CreatedOn":"2014-10-10T13:24:49.153",
+                "DescriptionText":"Account created, manual available at \\\\corp.xenarius.net\\internal\\common\\4ITServices\r\n",
+                "StatusText":"Incident 93441. Awaiting."
+            },
+            {
+                "Oid":"58f5d66a-5467-43f7-a6a1-cc8de47cf644",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-13T13:59:30.32",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Smith E."
+            },
+            {
+                "Oid":"283a89a2-df2e-4bd5-a956-084cdfcfdfb9",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-14T14:58:18.147",
+                "DescriptionText":"Jared didn't show up, sick. Will be later.",
+                "StatusText":""
+            },
+            {
+                "Oid":"eeb53901-4f83-4dd4-bd1a-a2d5d3bb196d",
+                "CreatedBy":"Maria Walker (Xenarius Inc)",
+                "CreatedOn":"2014-10-17T18:25:06.47",
+                "DescriptionText":"Arriving to LA on October 20th for internship, needs temporary workplace, supervisor Beatrice Riley, room 901",
+                "StatusText":""
+            }
+        ]
+    },
+    {
+        "SupportNumber":38315,
+        "StatusString":"Completed",
+        "Oid":"fdc2f919-6ce3-4178-883c-f8ca6faa25c1",
+        "ContactOid":"54ff406b-f79d-4ed5-9b73-f32103e5e601",
+        "Id":93435,
+        "NewDescription":null,
+        "ContactFullName":"Muriel Montgomery",
+        "Subject":"UPS battery in room 703 out of service.",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-09T14:06:50.743",
+        "Messages":[
+            {
+                "Oid":"b6376b95-8087-4d6b-84c4-f499ead9bf8c",
+                "CreatedBy":"Muriel Montgomery (Xenarius Inc)",
+                "CreatedOn":"2014-10-09T14:09:49.993",
+                "DescriptionText":"Can you replace the UPS that powers the switch in room 703? Its battery is out of service. So far the switch is connected directly to the mains.",
+                "StatusText":"Incident 93435 UPS battery in room 703 out of service. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"5531ce79-dc1e-4058-808e-caa942c39581",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T14:16:39.357",
+                "DescriptionText":"",
+                "StatusText":"Incident 93435. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"86da62e3-2434-4844-8a92-b47214d79da9",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T15:06:57.79",
+                "DescriptionText":"Replaced.",
+                "StatusText":"Incident 93435. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38666,
+        "StatusString":"Completed",
+        "Oid":"6ad95330-4543-4ba6-9305-bb3712651965",
+        "ContactOid":"df3a58e9-eb1d-480b-a719-06f8dce45547",
+        "Id":93427,
+        "NewDescription":null,
+        "ContactFullName":"Adam Long",
+        "Subject":"Need help to install an SSD to my desktop",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-09T10:45:45.887",
+        "Messages":[
+            {
+                "Oid":"486b4ce9-eb53-4ccd-a6d9-dd3933dc4fe6",
+                "CreatedBy":"Adam Long (Xenarius Inc)",
+                "CreatedOn":"2014-10-09T10:46:27.12",
+                "DescriptionText":"",
+                "StatusText":"Incident 93427 Need help to install an SSD to my desktop. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"c9203c17-c3bd-4dea-a2ed-8d521ba81b05",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T10:51:07.03",
+                "DescriptionText":"",
+                "StatusText":"Incident 93427. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"a60a0a16-165f-42f0-80d1-ac5c407c42b4",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-09T17:01:51.48",
+                "DescriptionText":"Unable to clone the HDD, a new disk image is deployed to the SSD.",
+                "StatusText":"Incident 93427. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Returned",
+        "Oid":"367f24f2-d277-4356-bb9b-d159672efb41",
+        "ContactOid":"53fc276c-d87a-47f3-a6dd-ad9d4afc2ca4",
+        "Id":93407,
+        "NewDescription":null,
+        "ContactFullName":"Jenny Jensen",
+        "Subject":"cannot login to SAP",
+        "Status":"Return",
+        "CreatedOn":"2014-10-08T13:29:30.293",
+        "Messages":[
+            {
+                "Oid":"22edbbaa-0967-418d-8454-512685c0903f",
+                "CreatedBy":"Priscilla Richardson (IT-Services LLC)",
+                "CreatedOn":"2014-10-08T13:31:16.86",
+                "DescriptionText":"cannot login to SAP",
+                "StatusText":"Incident 93407 cannot login to SAP. Created. New Or Changed By Client\r\nAssigned: Robbins K."
+            },
+            {
+                "Oid":"82abc2e0-ad2b-41d5-b4dc-4c6ed25092da",
+                "CreatedBy":"Randy Collier (IT-Services LLC)",
+                "CreatedOn":"2014-10-08T16:37:32.033",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Rivera E."
+            },
+            {
+                "Oid":"a51b3070-6694-4043-81e1-65437a3f9149",
+                "CreatedBy":"Eric Rivera (IT-Services LLC)",
+                "CreatedOn":"2014-10-08T16:38:34.613",
+                "DescriptionText":"Fixed.",
+                "StatusText":"Incident 93407. Completed."
+            },
+            {
+                "Oid":"ec398e55-6b54-4d5d-9b23-94e85563f965",
+                "CreatedBy":"Anthony Nguyen (Xenarius Inc)",
+                "CreatedOn":"2014-12-30T12:53:34.153",
+                "DescriptionText":"",
+                "StatusText":"Incident 93407. Returned."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38040,
+        "StatusString":"Closed",
+        "Oid":"fac72b5e-bd40-47de-95ca-6b0a023b28a7",
+        "ContactOid":"76d9e5d1-cdef-4cf7-9173-8755c016fa1b",
+        "Id":93400,
+        "NewDescription":null,
+        "ContactFullName":"Pavel Ward",
+        "Subject":"Internet inaccessible from a part of the room",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-08T09:40:22.067",
+        "Messages":[
+            {
+                "Oid":"25e22b6b-28e4-483b-b0c0-525b9e85a290",
+                "CreatedBy":"Alex Bailey (Xenarius Inc)",
+                "CreatedOn":"2014-10-08T09:41:55.46",
+                "DescriptionText":"Room 101 (open space), rear section - Internet access is unstable, collapses from time to time\r\n\r\nOther sections in the open space have good connection\r\nContact person - Pavel Ward, phone *********",
+                "StatusText":"Incident 93400 Internet inaccessible from a part of the room. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"f47b3a56-03d3-4b2a-895e-ea35954d10c4",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-08T10:01:23.78",
+                "DescriptionText":"",
+                "StatusText":"Incident 93400. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"1b9e70bf-412f-4c27-8576-84f565c3ff08",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-08T12:57:51.76",
+                "DescriptionText":"",
+                "StatusText":"Incident 93400. Completed."
+            },
+            {
+                "Oid":"dd535ad0-0fd2-4d8c-8d6d-0e74e013bbcf",
+                "CreatedBy":"Pavel Ward (Xenarius Inc)",
+                "CreatedOn":"2014-10-09T14:54:31.543",
+                "DescriptionText":"",
+                "StatusText":"Incident 93400. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"aaf45116-67f6-4c40-be23-781e85db8697",
+        "ContactOid":"8158b485-f77c-44cc-8bcb-59ca890f270e",
+        "Id":93344,
+        "NewDescription":null,
+        "ContactFullName":"Oscar Allison",
+        "Subject":"Replace fan(s) in the webaii-server",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-06T11:34:42.777",
+        "Messages":[
+            {
+                "Oid":"ee1fa1f9-abde-462c-a2b7-d9d14b889cd1",
+                "CreatedBy":"Oscar Allison (Xenarius Inc)",
+                "CreatedOn":"2014-10-06T11:36:33.65",
+                "DescriptionText":"Fans produce loud noise, a lot of dust inside. \r\nRoom 503, Oscar Allison.",
+                "StatusText":"Incident 93344 Replace fan(s) in the webaii-server. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"9d8b13e3-bec4-4d9f-8dee-8fd94c2fa449",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-10-06T11:42:52.84",
+                "DescriptionText":"",
+                "StatusText":"Incident 93344. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"a54b06a2-0933-4f60-900e-3e951367152b",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-06T17:15:27.36",
+                "DescriptionText":"Case cleaned, fans lubricated, silent mode enabled in the BIOS. The PC is not new, may go out of service, suggest that you order a new one. We can provide a PC with no OS installed.",
+                "StatusText":"Incident 93344. Completed."
+            },
+            {
+                "Oid":"8fafa839-4f55-4117-b4eb-203e1d9b4490",
+                "CreatedBy":"Oscar Allison (Xenarius Inc)",
+                "CreatedOn":"2014-10-07T09:54:51.89",
+                "DescriptionText":"",
+                "StatusText":"Incident 93344. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38383,
+        "StatusString":"Closed",
+        "Oid":"99a8c317-d775-4623-8263-07f6952f3660",
+        "ContactOid":"06c943b5-280d-4305-87b3-7656063d5e1b",
+        "Id":93335,
+        "NewDescription":null,
+        "ContactFullName":"Kristy Boone",
+        "Subject":"HDMI-DVI cable out of service",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-06T09:34:11.713",
+        "Messages":[
+            {
+                "Oid":"4e33a7fa-f20f-4966-8029-12b5cb9a618e",
+                "CreatedBy":"Tommie Zimmerman (Xenarius Inc)",
+                "CreatedOn":"2014-10-06T09:35:13.027",
+                "DescriptionText":"Replacement needed",
+                "StatusText":"Incident 93335 HDMI-DVI cable out of service. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"3cc3e85a-82df-41f8-af48-b633175706a1",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-06T09:40:26.917",
+                "DescriptionText":"",
+                "StatusText":"Incident 93335. Assigned.\r\nAssigned: Salazar R."
+            },
+            {
+                "Oid":"8c03f559-fb27-4dbe-bad4-60c97fc48635",
+                "CreatedBy":"Rudolph Salazar (IT-Services LLC)",
+                "CreatedOn":"2014-10-06T10:34:55.257",
+                "DescriptionText":"Replaced.",
+                "StatusText":"Incident 93335. Completed."
+            },
+            {
+                "Oid":"f70e8a79-d2ae-4a22-bf3c-74c982d42ee8",
+                "CreatedBy":"Tommie Zimmerman (Xenarius Inc)",
+                "CreatedOn":"2014-10-06T10:42:55.057",
+                "DescriptionText":"The new one went to blue screen as well",
+                "StatusText":"Incident 93335. Returned."
+            },
+            {
+                "Oid":"84678468-dbd9-498b-ab30-3b743cefda54",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-06T11:18:27.473",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Smith E."
+            },
+            {
+                "Oid":"18f1e523-63b0-4ee7-a22c-6b91d2d416f4",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-10-06T11:43:33.393",
+                "DescriptionText":"",
+                "StatusText":"Incident 93335. Assigned."
+            },
+            {
+                "Oid":"c244702d-2319-4a95-8a84-aff803c84518",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-06T13:55:13.523",
+                "DescriptionText":"Replaced once again.",
+                "StatusText":"Incident 93335. Completed.\r\nAssigned: Cole T."
+            },
+            {
+                "Oid":"fd337fe5-5e2b-490b-9e19-5878a12977ca",
+                "CreatedBy":"Tommie Zimmerman (Xenarius Inc)",
+                "CreatedOn":"2014-10-06T14:51:20.23",
+                "DescriptionText":"",
+                "StatusText":"Incident 93335. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38772,
+        "StatusString":"Closed",
+        "Oid":"e4aea0dd-65e3-4757-976b-e5fbaae8db70",
+        "ContactOid":"950734ed-a23f-4583-8a8d-ef4a82fe8a41",
+        "Id":93272,
+        "NewDescription":null,
+        "ContactFullName":"Edward Moore",
+        "Subject":"Employee's domain account blocked",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-03T13:40:18.46",
+        "Messages":[
+            {
+                "Oid":"63f3b317-12a4-4c5f-ac98-1b464efd549b",
+                "CreatedBy":"Edward Moore (Xenarius Inc)",
+                "CreatedOn":"2014-10-03T16:34:57.273",
+                "DescriptionText":"Maryann Padilla\r\n\r\nPhone *******\r\n\r\n25 E St John Road, suite 501\r\n\r\nAfter changing the domain password, we get the following message when attempting to log in:\r\n\"The referenced account is currently locked out. And may not be logged on to.\"",
+                "StatusText":"Incident 93272 Employee's domain account blocked. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"c911dd03-31b0-405e-b9d5-44681f34a90c",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-03T16:41:29.59",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Tucker W."
+            },
+            {
+                "Oid":"97388051-4636-423e-8e40-97c1242eeb80",
+                "CreatedBy":"Eric Rivera (IT-Services LLC)",
+                "CreatedOn":"2014-10-03T16:46:18.467",
+                "DescriptionText":"",
+                "StatusText":"Incident 93272. Assigned."
+            },
+            {
+                "Oid":"0b7f011d-2c44-4d75-972c-cea22a191a86",
+                "CreatedBy":"Eric Rivera (IT-Services LLC)",
+                "CreatedOn":"2014-10-03T16:49:35.123",
+                "DescriptionText":"Account unblocked, password 1Qwerty1 ",
+                "StatusText":"Incident 93272. Completed."
+            },
+            {
+                "Oid":"a4c5d546-0fc1-4b27-9ef8-21c176892f96",
+                "CreatedBy":"Edward Moore (Xenarius Inc)",
+                "CreatedOn":"2014-10-03T17:00:56.21",
+                "DescriptionText":"",
+                "StatusText":"Incident 93272. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38894,
+        "StatusString":"Completed",
+        "Oid":"e0b8fa9c-6504-4556-a897-e370312e3799",
+        "ContactOid":"81c2f9bc-1f70-4ade-9d1e-a84196897594",
+        "Id":93266,
+        "NewDescription":null,
+        "ContactFullName":"Hugh Malone",
+        "Subject":"Most of the applications on the computer lag. Especially noticeable when debugging in Visual Studio.",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-03T11:48:35.943",
+        "Messages":[
+            {
+                "Oid":"c3d3ece7-bd9a-418b-8e15-dfa7c3c2c7fb",
+                "CreatedBy":"Muriel Montgomery (Xenarius Inc)",
+                "CreatedOn":"2014-10-03T11:51:25.43",
+                "DescriptionText":"",
+                "StatusText":"Incident 93266 Most of the applications on the computer lag. Especially noticeable when debugging in Visual Studio. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"c9f7e208-0ee6-4ba9-8985-f6fa6556e70e",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-03T12:07:48.777",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Smith E."
+            },
+            {
+                "Oid":"59cbbcc2-ab96-4151-90d6-f892f5b93281",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-03T12:55:35.597",
+                "DescriptionText":"",
+                "StatusText":"Incident 93266. Assigned."
+            },
+            {
+                "Oid":"0e2140da-50aa-4bb7-b86d-ef55bfd8943a",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-07T09:29:18.077",
+                "DescriptionText":"New PC will be prepared.",
+                "StatusText":""
+            },
+            {
+                "Oid":"05177fec-f889-41a3-9b42-5e8e172b0e8a",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-07T15:14:41.543",
+                "DescriptionText":"New PC prepared.",
+                "StatusText":"Incident 93266. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"7ef28bf3-351f-4439-a81e-8c9be7809299",
+        "ContactOid":"81c2f9bc-1f70-4ade-9d1e-a84196897594",
+        "Id":93257,
+        "NewDescription":null,
+        "ContactFullName":null,
+        "Subject":"Remote access server la.xenarius.net does not respond",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-03T09:14:58.803",
+        "Messages":[
+            {
+                "Oid":"7f803964-6f34-4608-bc37-361bbd27c251",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-03T09:14:58.82",
+                "DescriptionText":"\r\n\r\nping la.xenarius.net\r\n\r\nPinging la.xenarius.net [66.214.139.210] with 32 bytes of data:\r\nRequest timed out.\r\nRequest timed out.\r\nRequest timed out.\r\nRequest timed out.\r\nPing statistics for 66.214.139.210:\r\n    Packets: Sent = 4, Received = 0, Lost = 4\r\n    (100% loss)\r\n\r\ntracert /h 5 /d la.xenarius.net\r\n\r\nTracing route to la.xenarius.net [66.214.139.210]\r\nover a maximum of 5 hops:\r\n  1    <1 ms    <1 ms    <1 ms  192.168.190.1 \r\n  2     6 ms     5 ms     2 ms  87.244.17.209 \r\n  3     2 ms     2 ms     1 ms  87.244.6.125 \r\n  4     1 ms     2 ms     2 ms  87.244.0.81 \r\n  5     2 ms     2 ms     2 ms  87.245.243.65 \r\nTrace complete.",
+                "StatusText":"Incident 93257 Remote access server la.xenarius.net does not respond. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"dd1aaf73-6161-4a2f-9cca-aa8dd8b682a5",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-03T09:34:16.193",
+                "DescriptionText":"Remote access from IT-Services works fine.\r\n\r\nAuto-check log:\r\n\r\nFunction ba585ea6-8a78-4c47-a676-56887c41f082\r\nCheck script remoteConnection_laxenariusnet_ping.ps1\r\nHost WINBASE\r\n\r\nCheck connection with la.xenarius.net ... ОК\r\nConnecting XEN LA\r\n\r\nCheck connection with la-services01.corp.xenarius.net ... ОК\r\nDisconnecting XEN LA\r\n",
+                "StatusText":""
+            },
+            {
+                "Oid":"66d80a79-c8cf-47a5-ac19-d98a6cc6cd05",
+                "CreatedBy":"Paul Martinez (IT-Services LLC)",
+                "CreatedOn":"2014-10-03T09:36:18.907",
+                "DescriptionText":"",
+                "StatusText":"Incident 93257. Completed.\r\nAssigned: Tucker W."
+            },
+            {
+                "Oid":"a4715520-c381-4b30-8692-eecd4a9dad4f",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-03T10:03:10.203",
+                "DescriptionText":"",
+                "StatusText":"Incident 93257. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"462baa72-9539-4e30-9b63-fa9b0bad9572",
+        "ContactOid":"c9a7a3a8-ef73-496f-ab12-f93c589f7398",
+        "Id":93255,
+        "NewDescription":null,
+        "ContactFullName":"Charles Moore",
+        "Subject": "Agent task DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 on the DB01 database server runs into an error",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-03T01:18:18.203",
+        "Messages":[
+            {
+                "Oid":"cc503255-1326-4968-87cc-6840e847f745",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-03T01:18:18.28",
+                "DescriptionText":"Recent server message\r\n\r\n2014-10-02 21:16:00.153 Copyright (c) 2008 Microsoft Corporation\r\n2014-10-02 21:16:00.153 Microsoft SQL Server Replication Agent: replmerg\r\n2014-10-02 21:16:00.153 \r\n2014-10-02 21:16:00.153 The timestamps prepended to the output lines are expressed in terms of UTC time.\r\n2014-10-02 21:16:00.153 User-specified agent parameter values:\r\n\t\t\t-Publisher DB4-RS\r\n\t\t\t-PublisherDB ClientCenter\r\n\t\t\t-Publication ClientCenter\r\n\t\t\t-Subscriber DB01\r\n\t\t\t-SubscriberDB ClientCenter\r\n\t\t\t-SubscriptionType 1\r\n\t\t\t-SubscriberSecurityMode 1\r\n\t\t\t-Distributor DB4-RS\r\n\t\t\t-ParallelUploadDownload 1\r\n\t\t\t-XJOBID 0x3C1B7ADBEE8E01489166D4110FB7EBA6\r\n\t\t\t-XJOBNAME DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0\r\n\t\t\t-XSTEPID 1\r\n\t\t\t-XSUBSYSTEM Merge\r\n\t\t\t-XSERVER DB01\r\n\t\t\t-XCMDLINE 0\r\n\t\t\t-XCancelEventHandle 0000000000000CA0\r\n\t\t\t-XParentProcessHandle 0000000000000B6C\r\n2014-10-02 21:16:00.163 Connecting to Subscriber 'DB01'\r\n2014-10-02 21:16:00.237 Connecting to Distributor 'DB4-RS'\r\n2014-10-02 21:16:42.333 The process could not connect to Distributor 'DB4-RS'.\r\n2014-10-02 21:16:42.334 Category:AGENT\r\nSource:  Merge Process\r\nNumber:  20084\r\nMessage: The process could not connect to Distributor 'DB4-RS'.\r\n2014-10-02 21:16:42.335 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  53\r\nMessage: Named Pipes Provider: Could not open a connection to SQL Server [53]. \r\n2014-10-02 21:16:42.336 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  53\r\nMessage: A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.\r\n2014-10-02 21:16:42.336 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: Login timeout expired\r\n2014-10-02 21:16:42.337 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: The merge process failed to execute a query because the query timed out. If this failure continues, increase the query timeout for the process. When troubleshooting, restart the synchronization with verbose history logging and specify an output file to which to write.\r\n2014-10-02 21:16:42.337 The merge process will restart after waiting 30 second(s)...\r\nConnecting to Subscriber 'DB01'\r\n2014-10-02 21:17:12.351 Connecting to Distributor 'DB4-RS'\r\n2014-10-02 21:17:54.456 The process could not connect to Distributor 'DB4-RS'.\r\n2014-10-02 21:17:54.457 Category:AGENT\r\nSource:  Merge Process\r\nNumber:  20084\r\nMessage: The process could not connect to Distributor 'DB4-RS'.\r\n2014-10-02 21:17:54.458 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  53\r\nMessage: Named Pipes Provider: Could not open a connection to SQL Server [53]. \r\n2014-10-02 21:17:54.459 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  53\r\nMessage: A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.\r\n2014-10-02 21:17:54.460 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: Login timeout expired\r\n2014-10-02 21:17:54.461 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: The merge process failed to execute a query because the query timed out. If this failure continues, increase the query timeout for the process. When troubleshooting, restart the synchronization with verbose history logging and specify an output file to which to write.\r\n\r\n\r\nLog in to the server and check task settings and agent logs.",
+                "StatusText":"Incident 93255 Agent task DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 on the DB01 database server runs into an error. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"15db4e42-1c4c-402e-801e-e10b4e1a2e41",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-03T01:33:23.297",
+                "DescriptionText":"Agent task DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 works ok.\r\n\r\nAuto-check log:\r\n\r\nFunction e57095b7-54e7-42d4-bca7-39fc2cb9c865\r\nCheck script database_ClientCenter_DB01_agentJob_DB4RSClientCenterClientCenterDB01ClientCenter0.ps1\r\nHost WDS\r\n\r\nTrying to connect to DB01 ... ОК\r\nCheck server edition ... ОК\r\nRequesting the latest result of the DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 task\r\nThe task is in progress\r\n",
+                "StatusText":""
+            },
+            {
+                "Oid":"510aacf3-e8a6-4958-920e-2ea93eccdca3",
+                "CreatedBy":"Paul Martinez (IT-Services LLC)",
+                "CreatedOn":"2014-10-03T09:37:05.483",
+                "DescriptionText":"",
+                "StatusText":"Incident 93255. Completed.\r\nAssigned: Tucker W."
+            },
+            {
+                "Oid":"0220d624-dd7a-4a32-8476-454a7f6d2ee7",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-03T10:03:10.187",
+                "DescriptionText":"",
+                "StatusText":"Incident 93255. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"e713c6ed-c276-4e27-93e4-4dfa6ae513fd",
+        "ContactOid":"c9a7a3a8-ef73-496f-ab12-f93c589f7398",
+        "Id":93254,
+        "NewDescription":null,
+        "ContactFullName":"Charles Moore",
+        "Subject": "Host 192.168.98.1 unreachable",
+        "Status":"Closed",
+        "CreatedOn":"2014-10-03T01:17:55.687",
+        "Messages":[
+            {
+                "Oid":"0990a534-31db-41d2-842f-ce3dbad09db7",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-03T01:17:56.047",
+                "DescriptionText":"If the problem persists, we need to find the cause - provider failure, client hardware failure, insufficient balance etc.\r\n\r\n\r\nping 192.168.98.1\r\n\r\nPinging 192.168.98.1 with 32 bytes of data:\r\nRequest timed out.\r\nRequest timed out.\r\nRequest timed out.\r\nRequest timed out.\r\nPing statistics for 192.168.98.1:\r\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\r\ntracert /h 5 /d 192.168.98.1\r\n\r\nTracing route to 192.168.98.1 over a maximum of 5 hops\r\n  1    <1 ms    <1 ms    <1 ms  172.22.0.18 \r\n  2    <1 ms    <1 ms    <1 ms  195.239.40.193 \r\n  3     3 ms     7 ms     3 ms  79.104.234.73 \r\n  4     3 ms     4 ms     3 ms  79.104.230.9 \r\n  5     4 ms     4 ms     4 ms  79.104.230.9 \r\nTrace Completed.",
+                "StatusText":"Incident 93254 Host 192.168.98.1 unreachable. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"c417400e-1cc8-4b96-b27d-787519b8d033",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-03T01:46:41.267",
+                "DescriptionText":"Host 192.168.98.1 is accessible.\r\n\r\nAuto-check log:\r\n\r\nFunction defcf644-422f-42a1-bc92-405680e5d6ed\r\nCheck script officeConnection_ISP_ping_192168981.ps1\r\nHost WDS\r\n\r\nCheck connection to 192.168.98.1 ... ОК\r\nAverage response time 172 ms\r\n",
+                "StatusText":""
+            },
+            {
+                "Oid":"c492665a-695b-4468-bacf-2a17c781cae4",
+                "CreatedBy":"Paul Martinez (IT-Services LLC)",
+                "CreatedOn":"2014-10-03T09:36:41.683",
+                "DescriptionText":"",
+                "StatusText":"Incident 93254. Completed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"00f181c5-1d83-4a11-84af-a419bbbc5b98",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-03T10:03:10.187",
+                "DescriptionText":"",
+                "StatusText":"Incident 93254. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38656,
+        "StatusString":"Completed",
+        "Oid":"70b39465-cf5b-4c36-bb21-515d37a19de0",
+        "ContactOid":"9a271b48-6ee5-42eb-835e-dbf6b7a29bab",
+        "Id":93189,
+        "NewDescription":null,
+        "ContactFullName":"George Lopez",
+        "Subject":"Password reset did not help",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-01T17:03:10.38",
+        "Messages":[
+            {
+                "Oid":"df2d0141-ed9b-4d9b-953e-f818cd323a52",
+                "CreatedBy":"George Lopez (Xenarius Inc)",
+                "CreatedOn":"2014-10-01T17:05:07.05",
+                "DescriptionText":"Error occurs:\r\n\r\n\"The security database on the server doesn't have a computer account for this workstation trust relationship\"",
+                "StatusText":"Incident 93189 Password reset did not help. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"a102a97a-d1c4-40f9-94f6-4a4beef4ce1a",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-01T17:11:25.197",
+                "DescriptionText":"",
+                "StatusText":"Incident 93189. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"c766da34-b199-4df7-b286-f7af7992a7fb",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-01T17:40:41.827",
+                "DescriptionText":"PC added to the domain.",
+                "StatusText":"Incident 93189. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38656,
+        "StatusString":"Completed",
+        "Oid":"26fb600d-7f4f-4b86-9b34-a2100e92517c",
+        "ContactOid":"9a271b48-6ee5-42eb-835e-dbf6b7a29bab",
+        "Id":93186,
+        "NewDescription":null,
+        "ContactFullName":"George Lopez",
+        "Subject":"The user Floyd.Guadalupe cannot log in to the domain",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-10-01T15:05:45.677",
+        "Messages":[
+            {
+                "Oid":"efe6f137-37fd-4dd2-bc14-5b7488568d5b",
+                "CreatedBy":"George Lopez (Xenarius Inc)",
+                "CreatedOn":"2014-10-01T15:07:37.69",
+                "DescriptionText":"",
+                "StatusText":"Incident 93186 The user Floyd.Guadalupe cannot log in to the domain. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"505b186e-7d89-4b84-82b2-f1a28d7397be",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-01T15:13:17.54",
+                "DescriptionText":"password reset to 1Qwerty1",
+                "StatusText":"Incident 93186. Completed.\r\nAssigned: Smith E."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Completed",
+        "Oid":"4694cf9e-64d3-4cf9-b460-e9086fa4c895",
+        "ContactOid":"a2b68546-b0ff-4794-9c76-5a5e5a4ef803",
+        "Id":93126,
+        "NewDescription":null,
+        "ContactFullName":"Maria Walker",
+        "Subject":"Disable forwarding from info@xenarius.net to Jenny's mail",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-30T18:16:49.307",
+        "Messages":[
+            {
+                "Oid":"1b9421d4-7530-471a-a025-4ccf369c8737",
+                "CreatedBy":"Maria Walker (Xenarius Inc)",
+                "CreatedOn":"2014-09-30T18:17:42.84",
+                "DescriptionText":"The ticket established a deadline - September 19th, but forwarding still happens",
+                "StatusText":"Incident 93126 Disable forwarding from info@xenarius.net to Jenny's mail. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"be54a1b1-e8f1-465b-9c3b-46d6e5233f73",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T18:54:16.4",
+                "DescriptionText":"Address all issues with mail directly to Charles Moore, he's the only one who has the rights.",
+                "StatusText":"Incident 93126. Completed.\r\nAssigned: Smith E."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Completed",
+        "Oid":"234c455e-800b-4bb2-bf2c-f4f503f960af",
+        "ContactOid":"a2b68546-b0ff-4794-9c76-5a5e5a4ef803",
+        "Id":93122,
+        "NewDescription":null,
+        "ContactFullName":"Maria Walker",
+        "Subject":"New workplace in Seattle by October 6th",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-30T17:24:01.09",
+        "Messages":[
+            {
+                "Oid":"5f9fd8d5-832d-4573-af35-70ad17e05551",
+                "CreatedBy":"Maria Walker (Xenarius Inc)",
+                "CreatedOn":"2014-09-30T17:30:40.213",
+                "DescriptionText":"by October 6th, Jimmie Holt, developer, email: jimmieh@xenarius.net, supervisor Heidi Castillo",
+                "StatusText":"Incident 93122 New workplace in Seattle by October 6th. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"1f4191f2-17a3-4bec-8c24-c4f0f350056b",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T17:31:48.3",
+                "DescriptionText":"",
+                "StatusText":"Incident 93122. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"e6392523-834b-459c-9adb-02a6e407d387",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-06T00:08:31.02",
+                "DescriptionText":"Account created, manual available at \\\\corp.xenarius.net\\internal\\common\\4ITServices",
+                "StatusText":""
+            },
+            {
+                "Oid":"1662bb24-612d-47a6-9e63-98660cf8e8d8",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-06T13:57:40.687",
+                "DescriptionText":"Hi. do you know when is Jimmie Holt showing up?\r\n Darin Morrison (13:56:16 6/10/2014) \r\nGood day. We're expecting him tomorrow\r\nwe're preparing a workplace for him right now\r\n Sonja Bowen (13:56:39 6/10/2014) \r\nplease drop a note about which PC you are going to give him",
+                "StatusText":""
+            },
+            {
+                "Oid":"ee736bc8-997a-4769-be3a-a0b12fe8440b",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-07T11:49:38.63",
+                "DescriptionText":"PC for the user renamed.",
+                "StatusText":"Incident 93122. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"82223296-a8e8-48ae-bcee-92d69449daae",
+        "ContactOid":"60655ec8-306e-459f-84c2-354ea80c0e68",
+        "Id":93117,
+        "NewDescription":null,
+        "ContactFullName":"Jose Hernandez",
+        "Subject":"Issues with access to the Support Center from the Seattle office",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-30T17:09:00.23",
+        "Messages":[
+            {
+                "Oid":"4171615e-d87a-49e9-9786-362c2d22f9d6",
+                "CreatedBy":"James White (Xenarius Inc)",
+                "CreatedOn":"2014-09-30T17:12:54.37",
+                "DescriptionText":"http://isc.xenarius.net/\r\n\r\nAttaches are downloaded slowly.\r\nFrom SC maintainers: \" Checked attach download speed - up to 700 KB/s.\"\r\n\r\nContact persons:\r\n  Seattle: Jose Hernandez (skype: ********)\r\n  LA: Cornelius Cohen (skype: *******)",
+                "StatusText":"Incident 93117 Issues with access to the Support Center from the Seattle office. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"e4eae87a-5145-4b00-99b5-9c23f37bbe6a",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T17:15:26.163",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Smith E."
+            },
+            {
+                "Oid":"7d2ead10-488b-48cc-891d-54378bff6185",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T17:21:27.927",
+                "DescriptionText":"",
+                "StatusText":"Incident 93117. Assigned."
+            },
+            {
+                "Oid":"c50d9a7c-d407-4f08-b2ad-b91e2008a456",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T17:57:24.47",
+                "DescriptionText":"Both providers in Seattle maintain upload and download according to speedtest.net - using the whole channel width. Tracing to isc.xenarius.net from Seattle goes ok, average time 143 ms, it's unclear what can cause the issue. The router has no forbidding rules. Probably routes from LA and Seattle go differently and the problem lays somewhere in the middle of the way, but we can't determine it quickly. We need time to collect more statistics.",
+                "StatusText":"Incident 93117. In Progress."
+            },
+            {
+                "Oid":"7149e1ec-1ca9-4c13-ba0f-6821289f0352",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-01T11:18:14.207",
+                "DescriptionText":" Darin Morrison (11:14:46 1/10/2014) \r\nhi. how does the download from isc work today ?\r\n Jose Hernandez (11:14:58 1/10/2014) \r\nhi it's ok today\r\n\r\n\r\n",
+                "StatusText":"Incident 93117. Completed."
+            },
+            {
+                "Oid":"37dfe394-1d1a-45cb-862b-1d45ea47d580",
+                "CreatedBy":"James White (Xenarius Inc)",
+                "CreatedOn":"2014-10-01T17:29:20.427",
+                "DescriptionText":"[4:25:33 PM] Willie	Tucker: hi Johnie. we are having the same problem as yesterday. Speed to SC is about to none.\r\n\r\nCharles Moore is sick\r\nAllen can talk to the provider: skype ********",
+                "StatusText":"Incident 93117. Returned."
+            },
+            {
+                "Oid":"167f71b7-f17b-47a8-9edd-531f5751b234",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-02T10:59:09.197",
+                "DescriptionText":"",
+                "StatusText":"Incident 93117. Assigned."
+            },
+            {
+                "Oid":"efa4a509-9e36-4549-993c-346401d07961",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-06T10:40:57.277",
+                "DescriptionText":"Configured route from Seattle to *.xenarius.net (66.55.147.16/28) through LA gateway. Under control.\r\n",
+                "StatusText":""
+            },
+            {
+                "Oid":"3502b202-b553-4ae5-8617-c3982c997cea",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-10-07T13:01:20.25",
+                "DescriptionText":"Darin Morrison (12:55:04 7/10/2014) \r\nhi. what's the speed of SC today?\r\n Jose Hernandez (12:56:09 7/10/2014) \r\nhi satisfactory today (about 300 kb)\r\n Jose Hernandez (12:56:23 7/10/2014) \r\nthere were no problems yesterday as well\r\n Darin Morrison (13:00:49 7/10/2014) \r\nok then. it works better via LA, let's try this way",
+                "StatusText":"Incident 93117. Completed."
+            },
+            {
+                "Oid":"a1c54ca2-9468-4fd4-bd13-478cd5b318a4",
+                "CreatedBy":"James White (Xenarius Inc)",
+                "CreatedOn":"2014-10-10T15:13:52.067",
+                "DescriptionText":"",
+                "StatusText":"Incident 93117. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38893,
+        "StatusString":"Closed",
+        "Oid":"7b2d27d2-f5b5-4ec2-bd8a-e61cdcd1164a",
+        "ContactOid":"950734ed-a23f-4583-8a8d-ef4a82fe8a41",
+        "Id":93064,
+        "NewDescription":null,
+        "ContactFullName":"Edward Moore",
+        "Subject":"No administrator rights on a PC - room 505",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-29T12:42:22.933",
+        "Messages":[
+            {
+                "Oid":"a0011d42-bbdd-4c30-8c39-2768f58f9dee",
+                "CreatedBy":"Edward Moore (Xenarius Inc)",
+                "CreatedOn":"2014-09-29T12:56:42.557",
+                "DescriptionText":"The PC is temporary used by a developer from Seattle. Administrator rights reqired to run XCCTray. User: Gutierrez.Lindsay",
+                "StatusText":"Incident 93064 No administrator rights on a PC - room 505. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"908e0416-f5cb-4505-b8ad-e16eaf634859",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T13:00:00.463",
+                "DescriptionText":"Relogin",
+                "StatusText":"Incident 93064. Completed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"81dfa8f9-4d10-4d89-bd95-08bb083b546b",
+                "CreatedBy":"Edward Moore (Xenarius Inc)",
+                "CreatedOn":"2014-09-29T14:43:05.603",
+                "DescriptionText":"",
+                "StatusText":"Incident 93064. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38428,
+        "StatusString":"Completed",
+        "Oid":"b8c3595e-e659-468f-9e5c-6bbc4140fa53",
+        "ContactOid":"e385c111-fe89-4434-bed0-cba229abc3fc",
+        "Id":93050,
+        "NewDescription":null,
+        "ContactFullName":"Noah Franklin",
+        "Subject":"Two HDMI cables",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-29T10:43:32.48",
+        "Messages":[
+            {
+                "Oid":"d0d03dc0-8c47-453a-a2fb-bfbfe4363eaa",
+                "CreatedBy":"Noah Franklin (Xenarius Inc)",
+                "CreatedOn":"2014-09-29T10:44:45.12",
+                "DescriptionText":"Two HDMI-HDMI cables needed. \r\n\r\nRoom 805\r\nPhone ********",
+                "StatusText":"Incident 93050 Two HDMI cables. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"8eb5965a-1691-4245-8899-3f9f5f1fbd83",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T10:47:10.993",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Smith E."
+            },
+            {
+                "Oid":"0ce0ce4d-993a-417f-aee0-b04ad89f9672",
+                "CreatedBy":"Willie Tucker (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T11:33:43.773",
+                "DescriptionText":"",
+                "StatusText":"Incident 93050. Assigned."
+            },
+            {
+                "Oid":"34bb942d-8fa4-4ec5-ac19-971633afffa5",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T11:55:48.76",
+                "DescriptionText":"Provided.",
+                "StatusText":"Incident 93050. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38781,
+        "StatusString":"Closed",
+        "Oid":"3294f24d-79c9-4537-990e-8d44883e10d6",
+        "ContactOid":"0c8e5153-106b-4af8-b4ab-275555146152",
+        "Id":93043,
+        "NewDescription":null,
+        "ContactFullName":"Kate White",
+        "Subject":"Windows does not start",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-29T10:03:35.027",
+        "Messages":[
+            {
+                "Oid":"ea799853-8a62-4a98-96d4-d66c8aabe1fb",
+                "CreatedBy":"Frank Cook (Xenarius Inc)",
+                "CreatedOn":"2014-09-29T10:07:12.307",
+                "DescriptionText":"Shows the \"sad emoji\" and a message saying something about system repair, then reloads immediately (so fast that I can't read the message). Then a screen offering a number of further actions appears but it's unclear which one to select.",
+                "StatusText":"Incident 93043 Windows does not start. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"d9ca0c68-9fb5-4876-a11c-8698b07625f6",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T10:08:01.183",
+                "DescriptionText":"",
+                "StatusText":"Incident 93043. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"be44069b-7e04-45bd-86d8-b70964fd7086",
+                "CreatedBy":"Frank Cook (Xenarius Inc)",
+                "CreatedOn":"2014-09-29T10:09:49.9",
+                "DescriptionText":"Kate's phone\r\n******",
+                "StatusText":""
+            },
+            {
+                "Oid":"66ec4c34-c6d1-4bd4-a594-02ce6ccb58cc",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T11:31:16.87",
+                "DescriptionText":"",
+                "StatusText":"Incident 93043. Assigned."
+            },
+            {
+                "Oid":"5238471b-5c4b-4b28-b62f-88ba5761b48d",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T11:57:06.577",
+                "DescriptionText":"",
+                "StatusText":"Incident 93043. In Progress."
+            },
+            {
+                "Oid":"2fa3ba30-b107-4943-bdc3-ebdd31ef7aa3",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T11:57:17.177",
+                "DescriptionText":"Checking HDD",
+                "StatusText":""
+            },
+            {
+                "Oid":"90b770c8-5e59-489a-a8a0-3369798bb9ca",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T14:51:59.733",
+                "DescriptionText":"Reinstalling Windows",
+                "StatusText":""
+            },
+            {
+                "Oid":"117a6d4d-8c52-4ea4-b8c2-0a37a4476ac7",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T17:46:26.367",
+                "DescriptionText":"Replacement laptop provided.",
+                "StatusText":"Incident 93043. Completed."
+            },
+            {
+                "Oid":"7b955d88-fa46-4309-839c-65e655fe4c3a",
+                "CreatedBy":"Frank Cook (Xenarius Inc)",
+                "CreatedOn":"2014-10-10T15:14:32.49",
+                "DescriptionText":"",
+                "StatusText":"Incident 93043. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"4cd291ee-c6ad-4624-8517-f3fe25ea8810",
+        "ContactOid":"c9a7a3a8-ef73-496f-ab12-f93c589f7398",
+        "Id":93033,
+        "NewDescription":null,
+        "ContactFullName":"Charles Moore",
+        "Subject":"Agent task DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 on the DB01 database server runs into an error",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-29T08:47:54.307",
+        "Messages":[
+            {
+                "Oid":"7f53ef2a-ffed-41e0-b315-4f86a14d9c38",
+                "CreatedBy":null,
+                "CreatedOn":"2014-09-29T08:47:54.323",
+                "DescriptionText":"Recent server message\r\n\r\n2014-09-29 04:45:21.451 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: Login timeout expired\r\n2014-09-29 04:45:21.451 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: The merge process failed to execute a query because the query timed out. If this failure continues, increase the query timeout for the process. When troubleshooting, restart the synchronization with verbose history logging and specify an output file to which to write.\r\n2014-09-29 04:45:21.452 The merge process will restart after waiting 30 second(s)...\r\nConnecting to Subscriber 'DB01'\r\n2014-09-29 04:45:51.464 Connecting to Distributor 'DB4-RS'\r\n2014-09-29 04:45:53.761 Initializing\r\n2014-09-29 04:45:53.897 Connecting to Publisher 'DB4-RS'\r\n2014-09-29 04:45:57.322 Retrieving publication information\r\n2014-09-29 04:45:57.458 Retrieving subscription information.\r\n2014-09-29 04:45:57.598 Connecting to Subscriber 'DB01'\r\n2014-09-29 04:45:57.606 Connecting to Distributor 'DB4-RS'\r\n2014-09-29 04:45:59.621 Initializing\r\n2014-09-29 04:45:59.756 Connecting to Publisher 'DB4-RS'\r\n2014-09-29 04:46:02.913 Retrieving publication information\r\n2014-09-29 04:46:03.049 Retrieving subscription information.\r\n2014-09-29 04:46:07.783 Uploading data changes to the Publisher\r\n2014-09-29 04:46:08.377 No data needed to be merged.\r\n2014-09-29 04:46:11.239 Downloading data changes to the Subscriber\r\n2014-09-29 04:46:30.868 Thread id 4796 is attempting to re-establish the connection to Publisher 'DB4-RS'.\r\n2014-09-29 04:46:49.953 Thread id 5712 is attempting to re-establish the connection to Distributor 'DB4-RS'.\r\n2014-09-29 04:47:12.960 Thread id 5712 failed to re-establish connection to Distributor 'DB4-RS'. Ensure that the server is online and accepting connections.\r\n2014-09-29 04:47:12.960 Thread id 4796 failed to re-establish connection to Publisher 'DB4-RS'. Ensure that the server is online and accepting connections.\r\n2014-09-29 04:47:12.962 No data needed to be merged.\r\n2014-09-29 04:47:12.965 Named Pipes Provider: Could not open a connection to SQL Server [53]. \r\n2014-09-29 04:47:12.966 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  53\r\nMessage: Named Pipes Provider: Could not open a connection to SQL Server [53]. \r\n2014-09-29 04:47:12.966 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  53\r\nMessage: A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.\r\n2014-09-29 04:47:12.966 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: Login timeout expired\r\n2014-09-29 04:47:12.966 Category:SQLSERVER\r\nSource:  DB4-RS\r\nNumber:  0\r\nMessage: The merge process failed to execute a query because the query timed out. If this failure continues, increase the query timeout for the process. When troubleshooting, restart the synchronization with verbose history logging and specify an output file to which to write.\r\n2014-09-29 04:47:12.966 Category:NULL\r\nSource:  Merge Replication Provider\r\nNumber:  -2147200994\r\nMessage: The merge process was unable to create a new generation at the 'Publisher'. Troubleshoot by restarting the synchronization with verbose history logging and specify an output file to which to write.\r\n2014-09-29 04:47:12.968 The process was successfully stopped.\r\n2014-09-29 04:47:12.969 Thread id 5556 is attempting to re-establish the connection to Distributor 'DB4-RS'.\r\n2014-09-29 04:47:34.067 Thread id 5556 failed to re-establish connection to Distributor 'DB4-RS'. Ensure that the server is online and accepting connections.\r\n2014-09-29 04:47:34.068 Category:NULL\r\nSource:  Merge Replication Provider\r\nNumber:  -2147200963\r\nMessage: The process was successfully stopped.\r\n\r\n\r\nLog in to the server and check task settings and agent logs.",
+                "StatusText":"Incident 93033 Agent task DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 on the DB01 database server runs into an error. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"bca91cb6-6bae-4051-9742-ba78f43fff09",
+                "CreatedBy":null,
+                "CreatedOn":"2014-09-29T09:03:10.057",
+                "DescriptionText":"Agent task DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 works ok.\r\n\r\nAuto-check log:\r\n\r\nFunction e57095b7-54e7-42d4-bca7-39fc2cb9c865\r\nCheck script database_ClientCenter_DB01_agentJob_DB4RSClientCenterClientCenterDB01ClientCenter0.ps1\r\nHost WDS\r\n\r\nAttempting to connect to DB01 ... ОК\r\nChecking server edition ... ОК\r\nRequesting results of the DB4-RS-ClientCenter-ClientCenter-DB01-ClientCenter- 0 task execution\r\nThe task is in progress\r\n",
+                "StatusText":""
+            },
+            {
+                "Oid":"43284e63-276b-4f21-b6a7-d1a630741d46",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T09:07:03.75",
+                "DescriptionText":"",
+                "StatusText":"Incident 93033. Closed.\r\nAssigned: Smith E."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38622,
+        "StatusString":"Closed",
+        "Oid":"26753656-840d-4c84-9635-8aae1bf725fa",
+        "ContactOid":"950734ed-a23f-4583-8a8d-ef4a82fe8a41",
+        "Id":92988,
+        "NewDescription":null,
+        "ContactFullName":"Edward Moore",
+        "Subject":"Need 2 monitors and 1 mouse+keyboard to room 505",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-26T12:55:40.553",
+        "Messages":[
+            {
+                "Oid":"5f9b3115-e9e4-4a91-ae2e-719e3328266a",
+                "CreatedBy":"Edward Moore (Xenarius Inc)",
+                "CreatedOn":"2014-09-26T13:33:03.633",
+                "DescriptionText":"2 empoyees are arriving from Seattle to LA for 2 weeks. Will be located in room 505. \r\nFound 2 PCs, need 2 monitors and 1 mouse with keyboard",
+                "StatusText":"Incident 92988 Need 2 monitors and 1 mouse+keyboard to room 505. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"f9a06813-dcf9-44d4-b23e-d27e30eb70c1",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-26T13:40:58.33",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Smith E."
+            },
+            {
+                "Oid":"42627487-191d-409f-877c-9c9620d62dc9",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-26T13:46:03.98",
+                "DescriptionText":"",
+                "StatusText":"Incident 92988. Assigned."
+            },
+            {
+                "Oid":"44e180e5-aa6b-46ae-a95f-8e7dc2babb84",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T11:43:11.14",
+                "DescriptionText":"Provided",
+                "StatusText":"Incident 92988. Completed."
+            },
+            {
+                "Oid":"62364e6d-9976-402e-8c71-c33c252b7df3",
+                "CreatedBy":"Edward Moore (Xenarius Inc)",
+                "CreatedOn":"2014-09-29T12:57:02.933",
+                "DescriptionText":"",
+                "StatusText":"Incident 92988. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Completed",
+        "Oid":"384236ae-840c-48cf-b277-51c69fc6b63a",
+        "ContactOid":"a2b68546-b0ff-4794-9c76-5a5e5a4ef803",
+        "Id":92966,
+        "NewDescription":null,
+        "ContactFullName":"Maria Walker",
+        "Subject":"New workplace in LA by October 1st, Josh Armstrong",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-25T18:01:42.023",
+        "Messages":[
+            {
+                "Oid":"66415c85-499a-4133-a170-abd987ad73a5",
+                "CreatedBy":"Maria Walker (Xenarius Inc)",
+                "CreatedOn":"2014-09-25T18:02:42.587",
+                "DescriptionText":"by October 1st, Josh Armstrong, support engineer, supervisor Charles Moore, email: josha@xenarius.net, room to be assigned",
+                "StatusText":"Incident 92966 New workplace in LA by October 1st. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"58d817eb-3fdd-487b-a83b-01558d83c489",
+                "CreatedBy":"Eric Rivera (IT-Services LLC)",
+                "CreatedOn":"2014-09-25T18:41:44.363",
+                "DescriptionText":"",
+                "StatusText":"Incident 92966. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"fba3de22-f820-4fe8-9f96-cf5112d6c117",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T14:50:07.393",
+                "DescriptionText":"Workplace prepared according to the check-list in room 805, changes made to the authentication server.\r\n1. Create a task to do the required works and prepare documentation.",
+                "StatusText":"Task 112024 Ensure service request is addressed. Created. Completed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"7820875a-5aed-4c00-b341-5de7ecbf3d6c",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T14:50:07.403",
+                "DescriptionText":"",
+                "StatusText":"Incident 92966. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"6fbe2293-20e1-41a5-a77e-9b4fed1b17a2",
+        "ContactOid":"a2b68546-b0ff-4794-9c76-5a5e5a4ef803",
+        "Id":92961,
+        "NewDescription":null,
+        "ContactFullName":null,
+        "Subject":"VPN-connection to XEN LA does not work",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-25T15:05:49.307",
+        "Messages":[
+            {
+                "Oid":"6f40d7cd-5d4b-49bd-be11-1aaa2f75fe36",
+                "CreatedBy":null,
+                "CreatedOn":"2014-09-25T15:05:49.46",
+                "DescriptionText":"Test hosts la-services01.corp.xenarius.net, xen-glendale-01.corp.xenarius.net unreachable\r\n\r\n\r\n\r\nping la-services01.corp.xenarius.net\r\n\r\nPinging la-services01.corp.xenarius.net [192.168.100.30] with 32 bytes of data:\r\nRequest timed out.\r\nRequest timed out.\r\nReply from 192.168.100.30: bytes=32 time=793ms TTL=126\r\nRequest timed out.\r\nPing statistics for 192.168.100.30:\r\n    Packets: Sent = 4, Received = 1, Lost = 3\r\n    (75% loss)\r\nApproximate round trip times in milli-seconds:\r\n    Minimum = 793ms, Maximum = 793 ms, Average = 793 ms\r\n\r\nping xen-glendale-01.corp.xenarius.net\r\n\r\nPinging xen-glendale-01.corp.xenarius.net [192.168.100.10] with 32 bytes of data:\r\nRequest timed out.\r\nRequest timed out.\r\nRequest timed out.\r\nRequest timed out.\r\nPing statistics for 192.168.100.10:\r\n    Packets: Sent = 4, Received = 0, Lost = 4\r\n    (100% loss)",
+                "StatusText":"Incident 92961 VPN-connection to XEN LA does not work. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"c1e8544d-ea8b-4fa8-9dd6-f3930bdb6bf0",
+                "CreatedBy":null,
+                "CreatedOn":"2014-09-25T15:24:17.663",
+                "DescriptionText":"Remote access from IT-Services works well.\r\n\r\nAuto-check log:\r\n\r\nFunction ba585ea6-8a78-4c47-a676-56887c41f082\r\nCheck script remoteConnection_laxenariusnet_ping.ps1\r\nHost WINBASE\r\n\r\nCheck connection to la.xenarius.net ... ОК\r\nConnecting to XEN LA\r\n\r\nCheck connection to la-services01.corp.xenarius.net ... ОК\r\nDisconnecting from XEN LA\r\n",
+                "StatusText":""
+            },
+            {
+                "Oid":"23af48cb-146c-4b36-a90a-8da1029451d7",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-25T15:31:36.677",
+                "DescriptionText":"",
+                "StatusText":"Incident 92961. Closed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"eabb62fa-3ce1-4eb8-91a4-fad6ae1040fc",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-01T12:24:04.8",
+                "DescriptionText":"Remote access from IT-Services works well.\r\n\r\nAuto-check log:\r\n\r\nFunction ba585ea6-8a78-4c47-a676-56887c41f082\r\nCheck script remoteConnection_laxenariusnet_ping.ps1\r\nHost WINBASE\r\n\r\nCheck connection to la.xenarius.net ... ОК\r\nConnecting to XEN LA\r\n\r\nCheck connection to la-services01.corp.xenarius.net ... ОК\r\nDisconnecting from XEN LA\r\n",
+                "StatusText":""
+            },
+            {
+                "Oid":"c56a5a3f-4b6c-4310-b23c-cfb59de1590d",
+                "CreatedBy":null,
+                "CreatedOn":"2014-10-02T05:34:42.65",
+                "DescriptionText":"Remote access from IT-Services works well.\r\n\r\nAuto-check log:\r\n\r\nFunction ba585ea6-8a78-4c47-a676-56887c41f082\r\nCheck script remoteConnection_laxenariusnet_ping.ps1\r\nHost WINBASE\r\n\r\nCheck connection to la.xenarius.net ... ОК\r\nConnecting to XEN LA\r\n\r\nCheck connection to la-services01.corp.xenarius.net ... ОК\r\nDisconnecting from XEN LA\r\n",
+                "StatusText":""
+            }
+        ]
+    },
+    {
+        "SupportNumber":38428,
+        "StatusString":"Closed",
+        "Oid":"8cad0704-7eea-4fa1-a347-bd6e1ab7ad9f",
+        "ContactOid":"e385c111-fe89-4434-bed0-cba229abc3fc",
+        "Id":92953,
+        "NewDescription":null,
+        "ContactFullName":"Noah Franklin",
+        "Subject":"Need new keyboard",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-25T10:36:30.76",
+        "Messages":[
+            {
+                "Oid":"5dc5b832-65d0-4273-8508-127ccb4fe562",
+                "CreatedBy":"Noah Franklin (Xenarius Inc)",
+                "CreatedOn":"2014-09-25T10:39:55.447",
+                "DescriptionText":"A key has stuck on my keyboard. Need a new one. \r\n\r\nRoom 805\r\nPhone *********",
+                "StatusText":"Incident 92953 Need new keyboard. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"2b05ecb2-2028-418f-9a1b-1026877baae9",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-25T10:47:03.783",
+                "DescriptionText":"Keyboard to room 707",
+                "StatusText":"Incident 92953. Completed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"17f09a94-379f-40eb-a9ef-67dde4ee673f",
+                "CreatedBy":"Noah Franklin (Xenarius Inc)",
+                "CreatedOn":"2014-09-29T10:42:21.527",
+                "DescriptionText":"",
+                "StatusText":"Incident 92953. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38660,
+        "StatusString":"Closed",
+        "Oid":"58196528-54db-4dc5-8f79-f24b27d7597d",
+        "ContactOid":"76d9e5d1-cdef-4cf7-9173-8755c016fa1b",
+        "Id":92931,
+        "NewDescription":null,
+        "ContactFullName":"Pavel Ward",
+        "Subject":"Need second monitor",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-24T13:30:09.213",
+        "Messages":[
+            {
+                "Oid":"05ae235e-b891-4921-beb7-813830df43e0",
+                "CreatedBy":"Pavel Ward (Xenarius Inc)",
+                "CreatedOn":"2014-09-24T13:31:52.823",
+                "DescriptionText":"Martha Wright\r\nPhone *******\r\nroom 101\r\nNeed second monitor with high resolution\r\n\r\nMain monitor Dell U2711\r\nVideo adapter GeForce 560Ti with one DVI-D output and one DVI Single (apparently only one monitor will support 2560x1400)",
+                "StatusText":"Incident 92931 Need second monitor. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"db6685bc-1e2e-41b4-95cf-6c86b11194da",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-24T13:39:07.2",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Smith E."
+            },
+            {
+                "Oid":"20c28e05-d7f9-4399-ba10-72d599f2a38e",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-24T14:22:42.99",
+                "DescriptionText":"Buy Dell U2711",
+                "StatusText":"Assigned: Byrd B."
+            },
+            {
+                "Oid":"9e844716-fa21-4633-811f-85dbcbe9546d",
+                "CreatedBy":"Joan Griffin (IT-Services LLC)",
+                "CreatedOn":"2014-09-25T09:19:29.52",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Cross G."
+            },
+            {
+                "Oid":"44230cd3-18b9-47fa-813b-32f8d972b336",
+                "CreatedBy":"George Cross (IT-Services LLC)",
+                "CreatedOn":"2014-09-25T09:42:42.57",
+                "DescriptionText":"",
+                "StatusText":"Task 111935 buy a monitor. Created. Started.\r\nAssigned: Cross G."
+            },
+            {
+                "Oid":"10590a4d-0358-4e8f-8307-50801ca5c7e6",
+                "CreatedBy":"George Cross (IT-Services LLC)",
+                "CreatedOn":"2014-09-25T09:42:42.67",
+                "DescriptionText":"",
+                "StatusText":"Incident 92931. In Progress."
+            },
+            {
+                "Oid":"55722e46-ec5c-4b30-8277-e0c9d4651357",
+                "CreatedBy":"George Cross (IT-Services LLC)",
+                "CreatedOn":"2014-09-25T09:44:17.997",
+                "DescriptionText":"Buy Dell U2711",
+                "StatusText":""
+            },
+            {
+                "Oid":"d6b78078-3caa-41ca-9746-d03b223ec423",
+                "CreatedBy":"George Cross (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T09:30:45.89",
+                "DescriptionText":"monitor approved, looking for a good price...",
+                "StatusText":""
+            },
+            {
+                "Oid":"05a82b5e-c34e-42b0-a4b4-8970a8c30000",
+                "CreatedBy":"George Cross (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T14:33:37.557",
+                "DescriptionText":"invoice ready",
+                "StatusText":""
+            },
+            {
+                "Oid":"e2062a8b-5d84-453a-bd81-276c55cb98d8",
+                "CreatedBy":"George Cross (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T14:34:26.073",
+                "DescriptionText":"ticket needs to be prolonged",
+                "StatusText":""
+            },
+            {
+                "Oid":"1b9623b5-d69c-4258-ba57-52fba415df47",
+                "CreatedBy":"George Cross (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T10:05:29.343",
+                "DescriptionText":"Invoice payed, waiting for delivery.",
+                "StatusText":""
+            },
+            {
+                "Oid":"72560330-1940-4798-82ec-45e1a1c58b01",
+                "CreatedBy":"George Cross (IT-Services LLC)",
+                "CreatedOn":"2014-10-03T08:57:59.16",
+                "DescriptionText":"",
+                "StatusText":"Task 111935. Completed."
+            },
+            {
+                "Oid":"ee8b7272-8714-4b0a-9d7d-358e98e52d26",
+                "CreatedBy":"George Cross (IT-Services LLC)",
+                "CreatedOn":"2014-10-07T13:00:22.327",
+                "DescriptionText":"Monitor delivered, handed to Smith.",
+                "StatusText":""
+            },
+            {
+                "Oid":"f7087390-f6f3-47bd-946d-550c609f5f8f",
+                "CreatedBy":"Eric Rivera (IT-Services LLC)",
+                "CreatedOn":"2014-10-07T13:01:47.457",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Smith E."
+            },
+            {
+                "Oid":"e20d4673-8902-48af-a2e5-109a9874078d",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-10-08T12:56:13.22",
+                "DescriptionText":"Monitor installed and checked.",
+                "StatusText":"Incident 92931. Completed."
+            },
+            {
+                "Oid":"bc74a3e9-5ba5-47ad-80bd-5e6ace6ab0a0",
+                "CreatedBy":"Pavel Ward (Xenarius Inc)",
+                "CreatedOn":"2014-10-09T14:54:20.307",
+                "DescriptionText":"",
+                "StatusText":"Incident 92931. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Closed",
+        "Oid":"135b67c5-844b-4227-b6a1-19a3d34aecb4",
+        "ContactOid":"8158b485-f77c-44cc-8bcb-59ca890f270e",
+        "Id":92871,
+        "NewDescription":null,
+        "ContactFullName":"Oscar Allison",
+        "Subject":"Take away old computer case",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-23T15:14:26.587",
+        "Messages":[
+            {
+                "Oid":"4c754b4e-941b-43f9-a84c-e30c99749259",
+                "CreatedBy":"Oscar Allison (Xenarius Inc)",
+                "CreatedOn":"2014-09-23T15:15:10.303",
+                "DescriptionText":"Robin Barnes, room 501\r\n",
+                "StatusText":"Incident 92871 Take old computer case. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"b74ee44a-1b70-4ed6-bd4d-d9ea870cad45",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-23T15:37:00.983",
+                "DescriptionText":"",
+                "StatusText":"Incident 92871. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"775e2294-0b0d-4412-ada4-f68dc0403dec",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-29T12:12:23.92",
+                "DescriptionText":"Case taken.",
+                "StatusText":"Incident 92871. Completed."
+            },
+            {
+                "Oid":"c1889ba6-c945-40ec-b4ae-35e28d099157",
+                "CreatedBy":"Oscar Allison (Xenarius Inc)",
+                "CreatedOn":"2014-10-06T11:34:40.573",
+                "DescriptionText":"",
+                "StatusText":"Incident 92871. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Completed",
+        "Oid":"56781b0f-7855-4c9f-8841-c023d0edbc63",
+        "ContactOid":"b738f391-d578-4fc2-bdd4-8defd2553ff4",
+        "Id":92864,
+        "NewDescription":null,
+        "ContactFullName":"Jacquelyn Moran",
+        "Subject":"Regarding ticket 92586",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-23T13:40:41.697",
+        "Messages":[
+            {
+                "Oid":"bc71bca0-eb7c-4a19-a1db-272b85481a79",
+                "CreatedBy":"Jacquelyn Moran (Xenarius Inc)",
+                "CreatedOn":"2014-09-23T13:41:41.477",
+                "DescriptionText":"It's closed but I got no HDD.\r\nOn the 19th I've even been out of office.",
+                "StatusText":"Incident 92864 Regarding ticket 92586. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"bd6a73b2-a76f-4d59-8b37-5d3e4b8aed90",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-23T14:48:59.17",
+                "DescriptionText":"Handed. The previous ticket was closed by error.",
+                "StatusText":"Incident 92864. Completed.\r\nAssigned: Smith E."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Completed",
+        "Oid":"3f5088c6-ae5b-4f5f-b47f-ef1df193c986",
+        "ContactOid":"b4d67a18-1b80-42f6-8272-c0384756cae6",
+        "Id":92856,
+        "NewDescription":null,
+        "ContactFullName":"Anthony Nguyen",
+        "Subject":"Update UserPilot on all domain controllers where it's installed",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-23T10:52:53.007",
+        "Messages":[
+            {
+                "Oid":"ed3762b7-c6e6-4cf9-8609-fb62e6e1f1d5",
+                "CreatedBy":"Anthony Nguyen (Xenarius Inc)",
+                "CreatedOn":"2014-09-23T10:56:11.79",
+                "DescriptionText":"installation manual at\r\nhttp://hosting.intermedia.net/support/kb/default.asp?id=2087\r\n\r\nlatest version at\r\n\\\\corp\\internal\\common\\4ITServices\\UserPilot\r\n\r\nLogin and password\r\n\r\n◦Login: **********\r\n◦Password: *********",
+                "StatusText":"Incident 92856 Update UserPilot on all domain controllers where it's installed. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"5c9f342d-2018-4466-a141-1642dda6c650",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-23T11:00:51.63",
+                "DescriptionText":"",
+                "StatusText":"Assigned: Cross G."
+            },
+            {
+                "Oid":"50d97f22-a95e-4abc-bdfd-2c674c7d39dc",
+                "CreatedBy":"Eric Rivera (IT-Services LLC)",
+                "CreatedOn":"2014-09-23T11:17:17.607",
+                "DescriptionText":"",
+                "StatusText":"Incident 92856. Assigned."
+            },
+            {
+                "Oid":"4ee9623d-59c7-40ac-b6ab-17558648bfb2",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-23T15:49:46.69",
+                "DescriptionText":"Updated",
+                "StatusText":"Incident 92856. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Completed",
+        "Oid":"05677bc1-b521-4d1d-b82b-b857d4699f79",
+        "ContactOid":"b4d67a18-1b80-42f6-8272-c0384756cae6",
+        "Id":92855,
+        "NewDescription":null,
+        "ContactFullName":"Anthony Nguyen",
+        "Subject":"HDMI-HDMI Cable",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-23T10:51:50.337",
+        "Messages":[
+            {
+                "Oid":"fcbe7a4a-3680-49bc-aebd-477ddcd1dc49",
+                "CreatedBy":"Anthony Nguyen (Xenarius Inc)",
+                "CreatedOn":"2014-09-23T10:52:39.837",
+                "DescriptionText":"hand to Clark Burton, room 101",
+                "StatusText":"Incident 92855 Кабель HDMI-HDMI. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"0c8b5b83-0efa-435d-940c-68d769512435",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-23T10:54:32.677",
+                "DescriptionText":"",
+                "StatusText":"Incident 92855. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"cce524e7-e229-475f-a739-364bf05fa0fb",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-23T14:48:11.89",
+                "DescriptionText":"handed",
+                "StatusText":"Incident 92855. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38475,
+        "StatusString":"Closed",
+        "Oid":"35f57287-d89f-4b89-b842-655f06d8bc8c",
+        "ContactOid":"23d904d2-e398-497c-bd63-722859c4221b",
+        "Id":92851,
+        "NewDescription":null,
+        "ContactFullName":"Ella Morris",
+        "Subject":"Problems with wired network connection",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-23T10:21:36.757",
+        "Messages":[
+            {
+                "Oid":"dd2db3df-10fc-464d-86ef-af8142c36c41",
+                "CreatedBy":"Frank Cook (Xenarius Inc)",
+                "CreatedOn":"2014-09-23T10:30:07.337",
+                "DescriptionText":"Phone ********\r\nXenarius, room 505 \r\n\r\nWired Internet connection does not work in Ella's laptop. I blame network adapter connector, because connection goes up when you move the connector, and down when you release it.\r\n\r\nWi-fi connection is also unstable but this time the problem seems to be in the WiFi. We didn't have time to check it.\r\n\r\nAs a result, Ella sometimes cannot post replies to user tickets. \r\n\r\n\r\nOn Friday, September 19th, an engineer from IT-Services examinde the PC. I do not know of any results.",
+                "StatusText":"Incident 92851 Problems with wired network connection. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"b7854308-8a90-43f6-b177-5564e5fb0a77",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-23T10:32:44.18",
+                "DescriptionText":"",
+                "StatusText":"Incident 92851. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"17c26a64-148f-447f-9424-587766b65bf5",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-23T16:09:41.063",
+                "DescriptionText":"Network adapter connector is broken, you should push the wire to get the connection up.",
+                "StatusText":""
+            },
+            {
+                "Oid":"e38e65f7-e9d2-45dd-a2c7-4aa6e70716e2",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-23T20:01:09.51",
+                "DescriptionText":"Get Charles Moore's approval and fix.",
+                "StatusText":""
+            },
+            {
+                "Oid":"cf2d3d4b-d377-4160-a9de-da350d314bf2",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-25T10:12:30.547",
+                "DescriptionText":" Charles Moore (17:27:44 24/09/2014) \r\nhi, we've already told. new laptops will arrive soon. once we give a new one to her, we'll have this one fixed",
+                "StatusText":"Incident 92851. Completed."
+            },
+            {
+                "Oid":"da5c56ae-4e50-4adc-83f8-e3d91374a4ed",
+                "CreatedBy":"Frank Cook (Xenarius Inc)",
+                "CreatedOn":"2014-10-10T15:14:24.207",
+                "DescriptionText":"",
+                "StatusText":"Incident 92851. Closed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":0,
+        "StatusString":"Completed",
+        "Oid":"5a0a5e94-cb44-4412-a2b2-158087b90df0",
+        "ContactOid":"a2b68546-b0ff-4794-9c76-5a5e5a4ef803",
+        "Id":92833,
+        "NewDescription":null,
+        "ContactFullName":"Maria Walker",
+        "Subject":"New workplace in LA by October 1st, Rafael Mcbride",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-22T17:36:05.363",
+        "Messages":[
+            {
+                "Oid":"cae974ee-b508-45e5-8856-3c369ac3e449",
+                "CreatedBy":"Maria Walker (Xenarius Inc)",
+                "CreatedOn":"2014-09-22T18:12:13.097",
+                "DescriptionText":"by October 1st, Rafael Mcbride, developer, VCL team, supervisor Geoffrey Sims, room 701, email: rafaelm@xenarius.net",
+                "StatusText":"Incident 92833 Новое рабочее место Тула. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"ca651444-6f1e-4a1e-9357-d010a01a3d42",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-22T19:34:38.697",
+                "DescriptionText":"",
+                "StatusText":"Incident 92833. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"87107296-9ee4-4965-b298-82f2e47f0f81",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T14:47:00.19",
+                "DescriptionText":"",
+                "StatusText":"Incident 92833. In Progress."
+            },
+            {
+                "Oid":"cf54e3f1-4db9-4514-a188-76c21cb5f9c2",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T14:48:11.83",
+                "DescriptionText":"Workplace prepared according to the check-list in room 805, account created.\r\n",
+                "StatusText":"Task 112018 Address service request. Created. Completed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"0c02df4d-4e90-42f5-b555-14634ae49b7b",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T14:48:40.193",
+                "DescriptionText":"Room 701",
+                "StatusText":""
+            },
+            {
+                "Oid":"0a749fd0-6581-49dc-b56e-ba23f03823d7",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-30T14:48:49.26",
+                "DescriptionText":"",
+                "StatusText":"Incident 92833. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38546,
+        "StatusString":"Completed",
+        "Oid":"a4f0d600-bb5b-409f-8a32-9598a06e96bb",
+        "ContactOid":"e2a1e35b-dd25-4912-b9a4-41b140217695",
+        "Id":92831,
+        "NewDescription":null,
+        "ContactFullName":"Sonya Harris",
+        "Subject":"Mic needed",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-22T15:56:03.317",
+        "Messages":[
+            {
+                "Oid":"f16c08ed-d5f2-4a6b-9559-928ea06efd01",
+                "CreatedBy":"Alex Bailey (Xenarius Inc)",
+                "CreatedOn":"2014-09-22T16:00:04.067",
+                "DescriptionText":"Need a mic to communicate with Seattle office\r\n\r\nRoom 101\r\nPhone **********",
+                "StatusText":"Incident 92831 Mic needed. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"70e64f3e-b879-4365-a5f0-d2a88ed3b93f",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-22T17:06:02.43",
+                "DescriptionText":"Replied in private.",
+                "StatusText":"Incident 92831. Completed.\r\nAssigned: Smith E."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38313,
+        "StatusString":"Completed",
+        "Oid":"4c235294-b412-4e5e-b3e5-dbafaf5f85b1",
+        "ContactOid":"f1174162-858e-45bb-b6b6-62b29169d1f2",
+        "Id":92775,
+        "NewDescription":null,
+        "ContactFullName":"Albert Young",
+        "Subject":"Take Sony VAIO laptop",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-19T09:28:34.283",
+        "Messages":[
+            {
+                "Oid":"545d8dd0-38ca-487f-aee5-033602673e4e",
+                "CreatedBy":"Albert Young (Xenarius Inc)",
+                "CreatedOn":"2014-09-19T09:35:33.377",
+                "DescriptionText":"I've got a new ASUS laptop as a replacement for my old Sony (support code for the old laptop seems to be 38313, the label eroded a bit) and moved all my data to it.\r\nAcceptance for the new laptop attached.\r\nRoom 704.",
+                "StatusText":"Incident 92775 Take Sony VAIO laptop. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"739c18e8-a758-4896-b31c-902ebf65e2a9",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-19T09:50:50.647",
+                "DescriptionText":"",
+                "StatusText":"Incident 92775. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"3d99780c-5d74-4167-a383-f2a30846afdb",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-19T10:30:00.61",
+                "DescriptionText":"Hand the laptop to Charles Moore, but leave the check-list, an engineer will take it later.",
+                "StatusText":"Incident 92775. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38590,
+        "StatusString":"Completed",
+        "Oid":"972c27ad-2774-4b8c-97c9-7f2298cae3a2",
+        "ContactOid":"48a22df4-c55d-415b-bc86-c68eab20caf0",
+        "Id":92742,
+        "NewDescription":null,
+        "ContactFullName":"Lori Long",
+        "Subject":"Cannot install .NET Framework 3.5",
+        "Status":"WaitToClose",
+        "CreatedOn":"2014-09-17T19:31:45.623",
+        "Messages":[
+            {
+                "Oid":"eeec4da5-57e0-4569-a697-19906f8642a6",
+                "CreatedBy":"Adam Long (Xenarius Inc)",
+                "CreatedOn":"2014-09-17T19:33:49.607",
+                "DescriptionText":"Cannot install .NET Framework 3.5",
+                "StatusText":"Incident 92742 Cannot install .NET Framework 3.5. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"e304f22a-a966-428f-91a2-b3d6c9678a17",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-17T19:50:32.447",
+                "DescriptionText":"The very first result in Google Search helps.",
+                "StatusText":"Incident 92742. Assigned.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"235aa72b-7818-4412-801e-b3baa7ba1900",
+                "CreatedBy":"John Brown (IT-Services LLC)",
+                "CreatedOn":"2014-09-18T12:15:41.42",
+                "DescriptionText":"Installed.",
+                "StatusText":"Incident 92742. Completed."
+            }
+        ]
+    },
+    {
+        "SupportNumber":38770,
+        "StatusString":"Closed",
+        "Oid":"9b066b7c-f320-464d-90c1-5774379be29f",
+        "ContactOid":"76d9e5d1-cdef-4cf7-9173-8755c016fa1b",
+        "Id":92722,
+        "NewDescription":null,
+        "ContactFullName":"Pavel Ward",
+        "Subject":"User account gets blocked often",
+        "Status":"Closed",
+        "CreatedOn":"2014-09-17T10:32:53.233",
+        "Messages":[
+            {
+                "Oid":"3915f7e4-d4be-43bf-9db5-5566f2f2d9c2",
+                "CreatedBy":"Pavel Ward (Xenarius Inc)",
+                "CreatedOn":"2014-09-17T10:35:57.75",
+                "DescriptionText":"Trevor Allison \r\nPhone ********\r\nroom 101\r\nAfter changing domain password, account gets blocked from time to time, cannot log in. Sometimes it gets unblocked, but today it doesn't let me log in at all\r\nalisson.trevor",
+                "StatusText":"Incident 92722 User account gets blocked often. Created. New Or Changed By Client"
+            },
+            {
+                "Oid":"ab98fc1d-28d4-45f3-b321-82dc247473d4",
+                "CreatedBy":"Eric Smith (IT-Services LLC)",
+                "CreatedOn":"2014-09-17T10:46:42.697",
+                "DescriptionText":"Reset to 1Qwerty1. Check all services that use this account for authorization, they get locked with the old password. Told this Danny Schmidt.",
+                "StatusText":"Incident 92722. Completed.\r\nAssigned: Smith E."
+            },
+            {
+                "Oid":"89a53fbe-d8ed-40af-b629-9529f311b478",
+                "CreatedBy":"Pavel Ward (Xenarius Inc)",
+                "CreatedOn":"2014-09-17T10:48:52.153",
+                "DescriptionText":"",
+                "StatusText":"Incident 92722. Closed."
+            }
+        ]
+    }
+]

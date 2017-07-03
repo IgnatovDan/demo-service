@@ -1,0 +1,823 @@
+﻿{
+  "id": "com.company.application",
+  "title": "Help Desk Demo",
+  "platforms": [
+    {
+      "name": "DesktopRule",
+      "layout": "desktop",
+      "options": {
+        "deviceType": "desktop"
+      }
+    },
+    {
+      "name": "PhoneRule",
+      "layout": "slideout",
+      "options": {
+        "deviceType": "phone"
+      }
+    },
+    {
+      "name": "TabletRule",
+      "layout": "split",
+      "options": {
+        "deviceType": "tablet"
+      }
+    }
+  ],
+  "model": [],
+  "dataStores": [
+    {
+      "id": "incidents",
+      "name": "incidents",
+      "type": "odata",
+      "key": "Oid",
+      "url": "https://localhost:44305/odata/Incidents",
+      "debugUrl": "",
+      "showAdvancedOptions": false,
+      "keyType": "Guid",
+      "version": 4,
+      "withCredentials": true,
+      "headers": [],
+      "fields": [
+        {
+          "name": "StatusString",
+          "type": "string"
+        },
+        {
+          "name": "StatusColor",
+          "type": "string"
+        },
+        {
+          "name": "ContactFullName",
+          "type": "string"
+        },
+        {
+          "name": "History",
+          "type": "string"
+        },
+        {
+          "name": "ContactOid",
+          "type": "string"
+        },
+        {
+          "name": "Subject",
+          "type": "string"
+        },
+        {
+          "name": "CreatedOn",
+          "type": "object"
+        },
+        {
+          "name": "Id",
+          "type": "number"
+        },
+        {
+          "name": "NewMessage",
+          "type": "string"
+        },
+        {
+          "name": "Messages",
+          "type": "object"
+        }
+      ]
+    },
+    {
+      "id": "persons",
+      "name": "persons",
+      "type": "odata",
+      "key": "Oid",
+      "url": "https://localhost:44305/odata/Persons",
+      "debugUrl": "",
+      "showAdvancedOptions": false,
+      "keyType": "Guid",
+      "version": 4,
+      "withCredentials": true,
+      "headers": []
+    },
+    {
+      "id": "dataProvider1",
+      "name": "statusItems",
+      "type": "array",
+      "key": "",
+      "fields": [],
+      "array": [
+        "Accepted",
+        "Closed",
+        "In Progress",
+        "New Or Changed",
+        "Returned For Improvement",
+        "Waiting For Client",
+        "Done. Waiting To Be Closed."
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "name": "createdOn",
+      "function": {
+        "logic": {
+          "variables": [
+            {
+              "name": "createdOn",
+              "parameter": true
+            },
+            {
+              "name": "h",
+              "parameter": false
+            },
+            {
+              "name": "d",
+              "parameter": false
+            },
+            {
+              "name": "m",
+              "parameter": false
+            },
+            {
+              "name": "y",
+              "parameter": false
+            }
+          ],
+          "calls": [
+            {
+              "_type": "SetValue",
+              "leftExpr": "h",
+              "valueExpr": "Math.floor((new Date() - createdOn) / 3.6e6)"
+            },
+            {
+              "_type": "SetValue",
+              "leftExpr": "d",
+              "valueExpr": "Math.floor(h / 24)"
+            },
+            {
+              "_type": "SetValue",
+              "leftExpr": "m",
+              "valueExpr": "Math.floor(d / 30)"
+            },
+            {
+              "_type": "SetValue",
+              "leftExpr": "y",
+              "valueExpr": "Math.floor(m / 12)"
+            },
+            {
+              "_type": "Event",
+              "flow": 0,
+              "returnExpr": "(h > 24 ? d > 30 ? m > 12 ? y + ' years' : m + ' months' : d + ' days' : h + ' hours')"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "handleError",
+      "function": {
+        "logic": {
+          "variables": [
+            {
+              "name": "error",
+              "type": "object",
+              "parameter": true
+            },
+            {
+              "name": "errorMessage",
+              "value": "",
+              "type": "string",
+              "parameter": false
+            },
+            {
+              "name": "errorTitle",
+              "value": "",
+              "type": "string",
+              "parameter": false
+            }
+          ],
+          "calls": [
+            {
+              "_type": "Switch",
+              "expr": "!!error.message || !!error.__details || !!(error.response && (error.response.ExceptionMessage || error.response.MessageDetail))",
+              "cases": [
+                {
+                  "valueExpr": "true",
+                  "calls": [
+                    {
+                      "_type": "SetValue",
+                      "leftExpr": "errorMessage",
+                      "valueExpr": "error.message || error.__details || (error.response && (error.response.ExceptionMessage || error.response.MessageDetail))"
+                    },
+                    {
+                      "_type": "SetValue",
+                      "leftExpr": "errorTitle",
+                      "valueExpr": "error.response && error.response.Message || 'Error'"
+                    }
+                  ]
+                }
+              ],
+              "otherwise": [
+                {
+                  "_type": "Switch",
+                  "expr": "!!error.response && !!error.response.ModelState",
+                  "cases": [
+                    {
+                      "valueExpr": "true",
+                      "calls": [
+                        {
+                          "_type": "Loop",
+                          "valueExpr": "error.response.ModelState",
+                          "calls": [
+                            {
+                              "_type": "SetValue",
+                              "leftExpr": "errorMessage",
+                              "valueExpr": "errorMessage + loopValue + '<br/>'"
+                            }
+                          ],
+                          "indexName": "loopIndex",
+                          "valueName": "loopValue"
+                        },
+                        {
+                          "_type": "SetValue",
+                          "leftExpr": "errorTitle",
+                          "valueExpr": "error.response.Message"
+                        }
+                      ]
+                    }
+                  ],
+                  "otherwise": [
+                    {
+                      "_type": "SetValue",
+                      "leftExpr": "errorMessage",
+                      "valueExpr": "error.response && error.response.Message || 'Unknown error'"
+                    },
+                    {
+                      "_type": "SetValue",
+                      "leftExpr": "errorTitle",
+                      "valueExpr": "'Error'"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_type": "ShowAlert",
+              "title": "=errorTitle",
+              "message": "=errorMessage"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "views": [
+    {
+      "type": "view",
+      "params": [],
+      "model": [],
+      "functions": [],
+      "dataSources": [
+        {
+          "id": "incidentsDataSource",
+          "store": "incidents",
+          "calculatedFields": [
+            {
+              "name": "CreatedOnString",
+              "getter": {
+                "logic": {
+                  "variables": [
+                    {
+                      "name": "result"
+                    }
+                  ],
+                  "calls": [
+                    {
+                      "_type": "Call",
+                      "functionName": "createdOn",
+                      "params": [
+                        {
+                          "name": "createdOn",
+                          "expr": "$data.CreatedOn"
+                        }
+                      ],
+                      "resultVariableName": "result"
+                    },
+                    {
+                      "_type": "Event",
+                      "flow": 0,
+                      "returnExpr": "result + ' ago'"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sort": {
+            "getter": "CreatedOn",
+            "desc": true
+          }
+        }
+      ],
+      "commands": [
+        {
+          "id": "myAddCommand",
+          "type": "command",
+          "title": "Add New",
+          "icon": "add",
+          "showIcon": {
+            "phone": true,
+            "tablet": true,
+            "desktop": false
+          },
+          "showText": {
+            "phone": false,
+            "tablet": false,
+            "desktop": true
+          },
+          "onExecute": {
+            "logic": {
+              "variables": [],
+              "calls": [
+                {
+                  "_type": "NavigateToView",
+                  "viewId": "addIncident",
+                  "viewIdExpr": "",
+                  "viewParametersExpr": ""
+                }
+              ]
+            },
+            "parameters": []
+          }
+        }
+      ],
+      "id": "incidents",
+      "title": "Incidents",
+      "pane": "master",
+      "components": [
+        {
+          "type": "list",
+          "id": "incidentsList",
+          "style": {
+            "width": "100%"
+          },
+          "dataSource": "$model.incidentsDataSource",
+          "editConfig": {
+            "allowItemDeleting": true,
+            "itemDeleteMode": "slideItem"
+          },
+          "pullRefreshEnabled": true,
+          "onItemClick": {
+            "logic": {
+              "variables": [],
+              "calls": [
+                {
+                  "_type": "NavigateToView",
+                  "viewId": "incident",
+                  "viewIdExpr": "",
+                  "viewParametersExpr": "",
+                  "viewParameters": [
+                    {
+                      "name": "incident",
+                      "valueExpr": "$data"
+                    }
+                  ]
+                }
+              ]
+            },
+            "parameters": [
+              {
+                "name": "incidentObj",
+                "valueExpr": "$data"
+              }
+            ]
+          },
+          "itemComponents": [
+            {
+              "type": "label",
+              "id": "timeLabel",
+              "style": {
+                "color": "#818181",
+                "backgroundColor": "$data.StatusColor",
+                "width": "100%",
+                "paddingTop": "10px",
+                "paddingLeft": "10px",
+                "fontSize": "auto",
+                "paddingBottom": "0px",
+                "paddingRight": "0px"
+              },
+              "text": "$data.CreatedOnString"
+            },
+            {
+              "type": "label",
+              "id": "titleLabel",
+              "style": {
+                "backgroundColor": "$data.StatusColor",
+                "width": "100%",
+                "paddingLeft": "10px",
+                "paddingBottom": "10px",
+                "paddingRight": "10px",
+                "fontSize": "20px",
+                "fontWeight": "500",
+                "paddingTop": "0px"
+              },
+              "text": "$data.Subject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "params": [
+        {
+          "name": "incident",
+          "type": "incidents"
+        }
+      ],
+      "model": [],
+      "functions": [],
+      "commands": [
+        {
+          "id": "saveCommand",
+          "type": "command",
+          "title": "Save",
+          "icon": "save",
+          "showIcon": {
+            "phone": true,
+            "tablet": true,
+            "desktop": false
+          },
+          "showText": {
+            "phone": false,
+            "tablet": false,
+            "desktop": true
+          },
+          "onExecute": {
+            "logic": {
+              "variables": [],
+              "calls": [
+                {
+                  "_type": "Save",
+                  "objectExpr": "$model.incident",
+                  "storeId": "incidents",
+                  "keyExpr": "",
+                  "errorVariableName": ""
+                },
+                {
+                  "_type": "NavigateBack"
+                }
+              ]
+            },
+            "parameters": []
+          }
+        }
+      ],
+      "type": "view",
+      "id": "incident",
+      "title": "Incident",
+      "refreshWhenShown": true,
+      "components": [
+        {
+          "type": "form",
+          "id": "mainFieldset",
+          "style": {
+            "fontSize": "16px",
+            "marginBottom": "15px"
+          },
+          "items": [
+            {
+              "title": "Problem",
+              "type": "input",
+              "id": "problem",
+              "style": {
+                "marginTop": "0px",
+                "marginLeft": "0px",
+                "marginBottom": "0px",
+                "marginRight": "0px"
+              },
+              "value": "$model.incident.Subject"
+            },
+            {
+              "title": "Created",
+              "type": "datebox",
+              "id": "created",
+              "style": {
+                "marginTop": "0px",
+                "marginLeft": "0px",
+                "marginBottom": "0px",
+                "marginRight": "0px"
+              },
+              "disabled": true,
+              "value": "$model.incident.CreatedOn"
+            },
+            {
+              "type": "lookup",
+              "id": "formitem1",
+              "title": "Status",
+              "style": {
+                "backgroundColor": "$model.incident.StatusColor"
+              },
+              "dataSource1": [
+                "Accepted",
+                "Closed",
+                "In Progress",
+                "New Or Changed",
+                "Returned For Improvement",
+                "Waiting For Client",
+                "Done. Waiting To Be Closed."
+              ],
+              "value": "$model.incident.StatusString",
+              "showPopupTitle": false,
+              "showCancelButton": false,
+              "closeOnOutsideClick": true,
+              "searchEnabled": false,
+              "dataSourceConfig": {
+                "store": "dataProvider1",
+                "refreshOnViewShown": "never"
+              },
+              "dataSource": "$model.dataSource1"
+            }
+          ]
+        },
+        {
+          "type": "label",
+          "style": {
+            "paddingBottom": "0px",
+            "fontSize": "14px"
+          },
+          "id": "historyLabel",
+          "text": "History:"
+        },
+        {
+          "type": "label",
+          "style": {
+            "fontSize": "100%"
+          },
+          "id": "history",
+          "text": "=$model.incident.History.replace(/\\\\n/g, \"<br>\")"
+        },
+        {
+          "type": "label",
+          "style": {
+            "paddingBottom": "0px",
+            "fontSize": "14px"
+          },
+          "id": "newMessageLabel",
+          "text": "New Message:"
+        },
+        {
+          "type": "textarea",
+          "id": "newMessage",
+          "style": {
+            "height": "100px"
+          },
+          "value": "$model.incident.NewMessage"
+        }
+      ],
+      "dataSources": [
+        {
+          "id": "dataSource1",
+          "calculatedFields": [],
+          "store": "dataProvider1",
+          "refreshOnViewShown": "never"
+        }
+      ],
+      "scrollable": true
+    },
+    {
+      "params": [],
+      "model": [
+        {
+          "name": "incident",
+          "type": "incidents",
+          "defaultValue": {
+            "Subject": "",
+            "NewMessage": "",
+            "ContactOid": null
+          }
+        }
+      ],
+      "functions": [],
+      "commands": [
+        {
+          "id": "myDoneCommand",
+          "type": "command",
+          "title": "Submit",
+          "icon": "save",
+          "showIcon": {
+            "desktop": false,
+            "phone": true,
+            "tablet": true
+          },
+          "showText": {
+            "desktop": true,
+            "phone": false,
+            "tablet": false
+          },
+          "onExecute": {
+            "logic": {
+              "variables": [
+                {
+                  "name": "error"
+                }
+              ],
+              "calls": [
+                {
+                  "_type": "Save",
+                  "objectExpr": "$model.incident",
+                  "storeId": "incidents",
+                  "keyExpr": "",
+                  "errorVariableName": "error"
+                },
+                {
+                  "_type": "Switch",
+                  "expr": "!!error",
+                  "cases": [
+                    {
+                      "valueExpr": "true",
+                      "calls": [
+                        {
+                          "_type": "Call",
+                          "functionName": "handleError",
+                          "resultVariableName": "",
+                          "params": [
+                            {
+                              "name": "error",
+                              "expr": "error"
+                            }
+                          ]
+                        },
+                        {
+                          "_type": "Event",
+                          "returnValue": null,
+                          "returnExpr": "",
+                          "flow": 0
+                        }
+                      ]
+                    }
+                  ],
+                  "otherwise": []
+                },
+                {
+                  "_type": "NavigateBack"
+                },
+                {
+                  "_type": "NavigateBack"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "type": "view",
+      "id": "addIncident",
+      "title": "New Incident",
+      "refreshWhenShown": true,
+      "components": [
+        {
+          "type": "form",
+          "id": "addIncidentMainFieldset",
+          "style": {
+            "fontSize": "16px",
+            "height": "auto"
+          },
+          "items": [
+            {
+              "title": "Problem",
+              "type": "input",
+              "id": "problem",
+              "style": {
+                "marginTop": "0px",
+                "marginLeft": "0px",
+                "marginBottom": "0px",
+                "marginRight": "0px"
+              },
+              "value": "$model.incident.Subject",
+              "placeholder": "Short description"
+            },
+            {
+              "title": "Problem Details",
+              "type": "textarea",
+              "id": "problemDetails",
+              "style": {
+                "height": "100px",
+                "marginTop": "0px",
+                "marginLeft": "0px",
+                "marginBottom": "0px",
+                "marginRight": "0px"
+              },
+              "value": "$model.incident.NewMessage",
+              "placeholder": "Provide full problem details"
+            },
+            {
+              "type": "lookup",
+              "id": "person",
+              "title": "Person (Optional)",
+              "style": {
+                "marginTop": "0px",
+                "marginLeft": "0px",
+                "marginBottom": "0px",
+                "marginRight": "0px"
+              },
+              "dataSource": "$model.personsDataSource",
+              "value": "$model.incident.ContactOid",
+              "displayExpression": "FullName",
+              "valueExpression": "Oid"
+            }
+          ]
+        }
+      ],
+      "dataSources": [
+        {
+          "id": "personsDataSource",
+          "store": "persons"
+        }
+      ]
+    },
+    {
+      "type": "view",
+      "params": [],
+      "model": [],
+      "functions": [],
+      "dataSources": [],
+      "commands": [],
+      "id": "about",
+      "title": "About",
+      "components": [
+        {
+          "type": "label",
+          "style": {
+            "fontSize": "22px",
+            "marginTop": "0px",
+            "paddingBottom": "5px"
+          },
+          "id": "label1",
+          "text": "Help Desk Demo"
+        },
+        {
+          "type": "label",
+          "style": {
+            "paddingTop": "0px",
+            "paddingBottom": "16px",
+            "paddingRight": "16px"
+          },
+          "id": "label2",
+          "encode": false,
+          "text": "<p><a href=\"https://xenarius.net/docs/help-desk-demo/\">Documentation page</a> for this demo.</p> <p>Version 1.0.</p> <p>Copyright © 2017 Xenarius.</p> <p>All rights reserved.</p>"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "defaultView": "incidents",
+    "title": "Navigation",
+    "items": [
+      {
+        "id": "incidents",
+        "visible": true,
+        "onExecute": null,
+        "title": "Incidents",
+        "icon": null
+      },
+      {
+        "id": "about",
+        "visible": true,
+        "onExecute": null,
+        "title": "About",
+        "icon": null
+      }
+    ]
+  },
+  "authentication": {
+    "loginView": null,
+    "url": null,
+    "requestMethod": null,
+    "headersExpr": null,
+    "dataExpr": null
+  },
+  "authorization": {
+    "allowAnonymous": true,
+    "locations": [],
+    "loginView": null
+  },
+  "description": null,
+  "author": {
+    "name": null,
+    "email": null,
+    "website": null
+  },
+  "params": [],
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACBBAMAAAAVjsRjAAAAFVBMVEX////6+vr+8e/69vb//Pz7+Pj/+/rL3hELAAADGElEQVRo3uzRwQnAMBADQRtSwC3iCnEHaeH6byaQEqyv5qPvglZEREREREQ4apk2ywTlJoCZ0O1F7IaxIhqJKSOBATHrGsMRxh17BEdGBIIDNHWbgODh0FwmIHj/mbpL+Eqxm922YRiA4wkg7Oz/aO0BvHbnsU9gF+s9Woudi2Hv/wwLPX3MTRNGKS+xW8P6hTIlOoocBw+CwG0EhDmnIyN6CXnogMDzfAsB5nKYHu5uIqgdGSLJNM23ENrJwzTd9ROEchaOhIroz4LFZ7vDXX8W6gx+miy0l6DEcvrbbvCVoYugoIwbAnQSFGFDgKGPgCLD/4SU6CKMIFAJ90uENHRVxCJIHArhEBBIXc/CHiAVwm73hESGropYVIVDJlh1QKSrIlYEmXAM9LrF6jFFyUMtgj4XwooQfESY7mtFGOJnIVy9WD1OU4pjPlmSNIIhop/LYCMaISMawUIgDi7hGC/19CkTSohvWMf81m6YCcXkG/Zxsnit38miJW/x8wAV0QhQbohnMGVFNAIMhSDiGKAgNgTIBNewJ6X0KyMqwf54WAki6GUDEZgfC+LfQYgAhcBuvty4JU156NfyaUPHOBoB1dFr3GAuY+ePUqKZ4EyEINTv/6fkwxASh3UivrtdkxEyYsqEjIgkn4AYoSAKwRAqxlMZnQ5aMsEQlVAQAuIQIu2S0AgFgYA3EagRMqIQKkJAvQ5a6yV1j9h2Zfgr9FlDQATB3ysZz+UhghAv5yEA8cxcBFAzeAgp2T59HgQQxEeInDyT9T9mcBEA47t1AQwL4iIElZParLggXIk4XR+irLYFFW+tN8TpGkUCNaMCaTe7iC9v18lYmrq9qvByUREsWe+t1bENgLtfSCU0hBgh9xPpcHk64rk9qyE+uG+qxA/v3XysfwikdOjqYULtYVqVX9VHUfso4raPIunQ08sF2CAWxAwuIgFjRh+jIQKKcN1PL3FFhDc97QLCcN0rP9EQtmnL2PpqNO9JbiB2ZSa03n4B8AlVO67rgo7t/YKk6hFaiRL5QWL7jrMluJ0ERNQIBaEIyQh/Abclus9nM5HiAAAAAElFTkSuQmCC",
+  "appProtocol": null,
+  "theme": {
+    "colorHue": "",
+    "colorAccent": "",
+    "colorSelectedText": "",
+    "appearance": "generic",
+    "base-accent": null,
+    "base-text-color": null,
+    "base-bg": null,
+    "base-border-color": null,
+    "base-border-radius": null
+  },
+  "schemeVersion": 9,
+  "shortTitle": null,
+  "version": "1.0.0",
+  "targetDevice": "universal",
+  "onStarted": null
+}
