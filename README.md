@@ -1,5 +1,8 @@
 # Xenarius Getting Started tutorial
-The project in this repository demonstrates how to create a data service for [Xenarius](https://www.xenarius.net) getting started tutorial. For step-by-step instructions on how to use this service to build a simple mobile app, see below. To watch the videos that follow the same steps, but based on a ready-to-use data service, go to the [Xenarius.net](https://xenarius.net/docs/videos/#getting-started-part1) website.
+The project in this repository demonstrates how to create a data service for [Xenarius](https://www.xenarius.net) getting started tutorial. For step-by-step instructions on how to use this service to build a simple mobile app, see below. 
+
+### Getting Started Videos:
+ To watch the videos that follow the same steps, but based on a ready-to-use data service, go to the [Xenarius.net](https://xenarius.net/docs/videos/#getting-started-part1) website.
 
 ### Requirements:
 
